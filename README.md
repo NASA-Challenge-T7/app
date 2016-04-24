@@ -1,0 +1,2 @@
+ - deployment pipeline: https://hub.jazz.net/pipeline/geekflyer/AirCheck
+ - running app: http://aircheck.mybluemix.net/
