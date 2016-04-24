@@ -27,4 +27,5 @@
                   .otherwise({
                     redirectTo: "/"
                 });
+});
 })();
