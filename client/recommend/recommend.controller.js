@@ -29,13 +29,19 @@
                 items[i] = new item("", "", "", "", "");
 
                 console.log(contents[i].ItemAttributes.Title);
-                items[i].name = contents[i].ItemAttributes.Title;
+                var nameText = contents[i].ItemAttributes.Title;
+                if (nameText != null) {
+                  if (nameText.length > 50) {
+                    nameText = nameText.substr(0, 30) + '…';
+                  }
+                }
+                items[i].name = nameText
                 items[i].link = contents[i].DetailPageURL;
                 items[i].img = contents[i].MediumImage.URL;
                 items[i].price = contents[i].Offers.Offer.OfferListing.Price.FormattedPrice;
                 var text = contents[i].EditorialReviews.EditorialReview.Content;
                 if (text != null) {
-                  if (text.length > 1000) {
+                  if (text.length > 500) {
                     text = text.substr(0, 30) + '…';
                   }
                 }

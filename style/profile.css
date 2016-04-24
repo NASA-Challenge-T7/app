@@ -2,27 +2,32 @@
 .profile .item{
     display: block;
     marigin: 0 auto;
+    text-align: center;
 }
 
-._md-list-item-inner .list-content-left{
-  width: 20%;
-  height: 100%;
-  text-align: left;
-  display: block;
-	float: left;
-
-
+.profile .item .name{
+    font: bold 50px arial, sans-serif;
 }
-._md-list-item-inner .list-content-right{
-  width: 80%;	
-  height: 100%;
-  text-align: left;
-  display: block;
-	float: left;
+.profile .item .age{
+    font: bold 30px arial, sans-serif;
+}
+.profile .item .gender{
+    font: bold 30px arial, sans-serif;
+}
+.profile .item .zip{
+    font: bold 30px arial, sans-serif;
 }
 
-._md-list-item-inner{
-  display: block;
-  width: 100%;
-  height:300px;
+.profile .item .pic{
+  width: 250px;
+  height: 250px;
+  border-radius: 250px;
+  -webkit-border-radius: 250px;
+  -moz-border-radius: 250px;
 }
+
+.profile .item .Logout{  
+  width: 250px;
+  height: 70px;
+}
+
