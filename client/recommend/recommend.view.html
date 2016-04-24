@@ -5,16 +5,16 @@
     <md-content>
         <md-list>
             <md-item ng-repeat="item in items">
-                <md-item-content>
+                <md-item-content class="_md-list-item-inner">
                     <!-- <button class="_md-no-style md-button md-ink-ripple" type="button" ng-transclude> -->
-                        <div class="_md-list-item-inner">
-                            <div class="list-content-left">
-                                <a href="{{item.link}}}">
+                        <!-- <div class="_md-list-item-inner"> -->
+                            <!-- <div class="list-content-left"> -->
+                                <a href="{{item.link}}}" class="pic">
                                     <img ng-src="{{item.img}}" class="md-avatar" >
                                 </a>
-                            </div>
-                            <div class="list-content-right">
-                                <div class="md-list-item-text layout-column">
+                            <!-- </div> -->
+                            <!-- <div class="list-content-right"> -->
+                                <div class="md-list-item-text layout-column desc">
                                     <h3 class="ng-binding">{{item.name}}</h3>
                                     <h4 class="ng-binding">{{item.price}}</h4>
                                     <p class="ng-binding">{{item.desc}}</p>
@@ -22,8 +22,8 @@
                                     <p>{{item.link}}</p>
                                     -->
                                 </div>
-                            </div>
-                        </div>
+                            <!-- </div> -->
+                        <!-- </div> -->
                     <!-- </button> -->
                 </md-item-content>
             </md-item>

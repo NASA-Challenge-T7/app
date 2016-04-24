@@ -1,5 +1,5 @@
 ._md-list-item-inner .list-content-left{
-  width: 20%;
+  width: 30%;
   height: 100%;
   text-align: left;
   display: block;
@@ -8,7 +8,25 @@
 
 }
 ._md-list-item-inner .list-content-right{
-  width: 80%;	
+  width: 70%;	
+  height: 100%;
+  text-align: left;
+  display: block;
+	float: left;
+}
+
+
+._md-list-item-inner .pic{
+  width: 30%;
+  height: 100%;
+  text-align: left;
+  display: block;
+	float: left;
+
+
+}
+._md-list-item-inner .desc{
+  width: 70%;	
   height: 100%;
   text-align: left;
   display: block;
