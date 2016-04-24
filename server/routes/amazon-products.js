@@ -6,6 +6,15 @@ var router = express.Router();
 
 // var searchOptions = {SearchIndex: "Books", Keywords: "Javascript"};
 // var searchOptions = {SearchIndex: "HealthPersonalCare", Sort: "salesrank", Keywords: "throat", ResponseGroup:""};
+var searchOptionsForName = {SearchIndex: "HealthPersonalCare", Sort: "salesrank", Keywords: "throat",  ResponseGroup: "Small"};
+
+router.get('/amazon-products/name', function (req, res) {
+    awsProductsClient.call("ItemSearch", searchOptionsForName, function (err, searchResult) {
+        if (err) {res.status(500).send('Error during product search');}
+        return res.json(searchResult);
+    });
+});
+
 var searchOptionsForURL = {SearchIndex: "HealthPersonalCare", Sort: "salesrank", Keywords: "throat"};
 
 router.get('/amazon-products/link', function (req, res) {
