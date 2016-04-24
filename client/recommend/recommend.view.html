@@ -6,19 +6,25 @@
         <md-list>
             <md-item ng-repeat="item in items">
                 <md-item-content>
-                    <button class="_md-no-style md-button md-ink-ripple" type="button" ng-transclude>
+                    <!-- <button class="_md-no-style md-button md-ink-ripple" type="button" ng-transclude> -->
                         <div class="_md-list-item-inner">
-                            <img ng-src="{{item.img}}" class="md-avatar" >
-                            <div class="md-list-item-text layout-column">
-                                <h3 class="ng-binding">{{item.name}}</h3>
-                                <h4 class="ng-binding">{{item.price}}</h4>
-                                <p class="ng-binding">{{item.desc}}</p>
-                                <!--
-                                <p>{{item.link}}</p>
-                                -->
+                            <div class="list-content-left">
+                                <a href="{{item.link}}}">
+                                    <img ng-src="{{item.img}}" class="md-avatar" >
+                                </a>
+                            </div>
+                            <div class="list-content-right">
+                                <div class="md-list-item-text layout-column">
+                                    <h3 class="ng-binding">{{item.name}}</h3>
+                                    <h4 class="ng-binding">{{item.price}}</h4>
+                                    <p class="ng-binding">{{item.desc}}</p>
+                                    <!--
+                                    <p>{{item.link}}</p>
+                                    -->
+                                </div>
                             </div>
                         </div>
-                    </button>
+                    <!-- </button> -->
                 </md-item-content>
             </md-item>
         </md-list>
