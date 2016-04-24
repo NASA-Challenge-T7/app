@@ -1,0 +1,20 @@
+{
+  "name": "spaceapps",
+  "description": "",
+  "main": "server.js",
+  "authors": [
+    "Christian Theilemann <christian.theilemann@sap.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/NASA-Challenge-T7/app",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "google-map": "^1.1.10"
+  }
+}
