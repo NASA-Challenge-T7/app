@@ -14,7 +14,7 @@
                  })
                   .when("/history", {
                      templateUrl: "client/history/history.view.html",
-                 });
+                 })
                   .when("/sick", {
                      templateUrl: "client/sick/sick.view.html",
                  })
@@ -23,10 +23,8 @@
                  })
                   .when("/profile", {
                      templateUrl: "client/profile/profile.view.html",
-                 });
-                   });
+                 })
                   .otherwise({
                     redirectTo: "/"
                 });
-
 })();
