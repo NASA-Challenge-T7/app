@@ -41,7 +41,7 @@
                 items[i].price = contents[i].Offers.Offer.OfferListing.Price.FormattedPrice;
                 var text = contents[i].EditorialReviews.EditorialReview.Content;
                 if (text != null) {
-                  if (text.length > 500) {
+                  if (text.length > 300) {
                     text = text.substr(0, 30) + '…';
                   }
                 }

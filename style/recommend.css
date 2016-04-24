@@ -1,10 +1,11 @@
+
+
 ._md-list-item-inner .list-content-left{
   width: 30%;
   height: 100%;
   text-align: left;
   display: block;
 	float: left;
-
 
 }
 ._md-list-item-inner .list-content-right{
@@ -16,13 +17,15 @@
 }
 
 
+
+
 ._md-list-item-inner .pic{
   width: 30%;
   height: 100%;
   text-align: left;
   display: block;
-	float: left;
-
+  float: left;
+  vertical-align: center;
 
 }
 ._md-list-item-inner .desc{
@@ -36,7 +39,8 @@
 ._md-list-item-inner{
   display: block;
   width: 100%;
-  height:300px;
+  height:200px;
+	border-style: solid;
 }
 
 .md-avatar{
