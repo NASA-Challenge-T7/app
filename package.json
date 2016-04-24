@@ -1,0 +1,23 @@
+{
+  "name": "spaceapps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NASA-Challenge-T7/app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NASA-Challenge-T7/app/issues"
+  },
+  "homepage": "https://github.com/NASA-Challenge-T7/app#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
