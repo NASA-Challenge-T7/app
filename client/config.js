@@ -14,12 +14,16 @@
                  })
                   .when("/history", {
                      templateUrl: "client/history/history.view.html",
+                     controller: "HistoryController",
+                      controllerAs: "model"
                  })
                   .when("/sick", {
                      templateUrl: "client/sick/sick.view.html",
                  })
                  .when("/forecast", {
                      templateUrl: "client/forecast/forecast.view.html",
+                          controller: "ForecastController",
+                      controllerAs: "model"
                  })
                   .when("/profile", {
                      templateUrl: "client/profile/profile.view.html",
