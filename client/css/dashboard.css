@@ -17,6 +17,13 @@ body {
   border-bottom: 1px solid #eee;
 }
 
+.navbar-brand{
+  color: #00cccc;
+  font-size: xx-large;
+  font-style: italic;
+ 
+}
+
 /*
  * Top navigation
  * Hide default border to remove 1px line.
