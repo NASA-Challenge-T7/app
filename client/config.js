@@ -29,7 +29,8 @@
                      templateUrl: "client/profile/profile.view.html",
                  })
                   .otherwise({
-                    redirectTo: "/"
+                     templateUrl: "client/map/map.view.html",
+                      controller: "MapController"
                 });
 });
 })();
