@@ -5,6 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node_modules/bower/bin/bower install",
     "start": "node server.js"
   },
   "repository": {
@@ -20,6 +21,7 @@
   "dependencies": {
     "angular": "^1.5.5",
     "aws-lib": "^0.3.0",
+    "bower": "^1.7.9",
     "express": "^4.13.4",
     "highcharts-ng": "0.0.11",
     "n3-charts": "^2.0.25"
