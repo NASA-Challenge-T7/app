@@ -1,0 +1,8 @@
+---
+applications:
+- name: airie
+  buildpack: https://github.com/cloudfoundry/nodejs-buildpack
+  host: i848709airie  
+  domain: cfapps.sap.hana.ondemand.com
+  memory: 1G
+  path: .

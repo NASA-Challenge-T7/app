@@ -4,7 +4,10 @@
         .module("SpaceApp")
         .config(function($routeProvider){
             $routeProvider
-                 .when("/", {
+               .when("/", {
+                     templateUrl: "client/landing/landing.view.html",
+                })
+                 .when("/map", {
                      templateUrl: "client/map/map.view.html",
                       controller: "MapController"
                  })
@@ -28,8 +31,14 @@
                   .when("/profile", {
                      templateUrl: "client/profile/profile.view.html",
                  })
+                  .when("/remedies", {
+                     templateUrl: "client/remedies/remedies.view.html",
+                 })
+                  .when("/medical", {
+                     templateUrl: "client/medical/medical.view.html",
+                 })
                   .otherwise({
-                    redirectTo: "/"
-                });
+                    templateUrl: "client/landing/landing.view.html",
+                                      });
 });
 })();
