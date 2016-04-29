@@ -95,21 +95,7 @@
     <script src="client/history/history.controller.js"></script> 
     <script src="client/forecast/forecast.controller.js"></script> 
 
-  </head>
-  <body>
-    <div ng-include src="'client/header/header.view.html'">
-     </div>
-       <div class="container-fluid">
-        <div class="row">
-     <div ng-include src="'client/sidebar/sidebar.view.html'">
-     </div>
-      <div ng-view>
-      </div>
-      </div>
-      </div>
-  </body>
-</html>
-
+  
     <script src="index.controller.js"></script> 
     
   
@@ -122,7 +108,7 @@
               <div class = "useroptions" ng-class="model.sideBarToggleClass" ng-show="model.toggleShow">
                 <div class="sidebar-nav">
                   <ul>
-                  <li><button type="button" class="btn btn-primary" ng-click="model.go('/map')">Home</button></li>
+                  <li><button type="button" class="btn btn-primary" ng-click="model.go('/mapCH4')">Home</button></li>
                   <li><button type="button" class="btn btn-primary" ng-click="model.go('/forecast')">Forecast</button></li>
                   <li><button type="button" class="btn btn-primary" ng-click="model.go('/sick')">Feeling Sick?</button></li>
                   <li><button type="button" class="btn btn-primary" ng-click="model.go('/recommend')">Information</button></li>
