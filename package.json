@@ -50,6 +50,7 @@
     "angular-simple-logger": "^0.1.7",
     "angular-touch": "^1.5.5",
     "jquery": "^2.2.3",
-    "lodash": "^4.11.1"
+    "lodash": "^4.11.1",
+    "pollen": "0.0.5"
   }
 }
