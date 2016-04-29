@@ -14,7 +14,17 @@
     "test",
     "tests"
   ],
+  "devDependencies": {
+    "angular-mocks": "1.2 - 1.5",
+    "angular-route": "1.2 - 1.5",
+    "bootstrap-without-jquery": "git://github.com/tagawa/bootstrap-without-jquery.git",
+    "data-structures": "~1.4.2",
+    "OverlappingMarkerSpiderfier": "git://github.com/nmccready/OverlappingMarkerSpiderfier.git",
+    "underscore": "~1.8.3",
+    "uuid": "http://github.com/LiosK/UUID.js/archive/v3.2.tar.gz"
+  },
   "dependencies": {
-    "google-map": "^1.1.10"
+    "ngstorage": "^0.3.10",
+    "ngmap": "^1.17.3"
   }
 }

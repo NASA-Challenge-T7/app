@@ -1,4 +1,4 @@
-w<div ng-controller="MapController">
+<div ng-controller="MapController">
 <!-- 
     <button type="button" class="btn btn-danger" ng-click="action()"> Click me!</button>
      -->
@@ -9,67 +9,50 @@ w<div ng-controller="MapController">
     </style>
     <google-map latitude="37.78" longitude="-122.4330" zoom="13">
 
-        <google-map-marker icon="../resources/circle.png" latitude="37.7801" longitude="-122.3991"></google-map-marker>
-        <google-map-marker icon="../resources/circle.png" latitude="37.7810" longitude="-122.4093"></google-map-marker>
-        <google-map-marker icon="../resources/circle.png" latitude="37.7813" longitude="-122.3993"></google-map-marker>
-        <google-map-marker icon="../resources/circle.png" latitude="37.7818" longitude="-122.3898"></google-map-marker>
-        <google-map-marker icon="../resources/circle.png" latitude="37.7825" longitude="-122.3896"></google-map-marker>
-        <google-map-marker icon="../resources/circle.png" latitude="37.7832" longitude="-122.3901"></google-map-marker>
-
-        <google-map-marker icon="../resources/circle.png" latitude="37.7901" longitude="-122.3921"></google-map-marker>
-        <google-map-marker icon="../resources/circle.png" latitude="37.7855" longitude="-122.3935"></google-map-marker>
-        <google-map-marker icon="../resources/circle.png" latitude="37.7848" longitude="-122.3891"></google-map-marker>
-        <google-map-marker icon="../resources/circle.png" latitude="37.7878" longitude="-122.3883"></google-map-marker>
-        <google-map-marker icon="../resources/circle.png" latitude="37.7891" longitude="-122.3976"></google-map-marker>
-        <google-map-marker icon="../resources/circle.png" latitude="37.7905" longitude="-122.3929"></google-map-marker>
-
-        <google-map-marker icon="../resources/circle.png" latitude="37.7905" longitude="-122.4075"></google-map-marker>
-        <google-map-marker icon="../resources/circle.png" latitude="37.7911" longitude="-122.4081"></google-map-marker>
-        <google-map-marker icon="../resources/circle.png" latitude="37.7915" longitude="-122.4101"></google-map-marker>
-        <google-map-marker icon="../resources/circle.png" latitude="37.7916" longitude="-122.4317"></google-map-marker>
-        <google-map-marker icon="../resources/circle.png" latitude="37.7921" longitude="-122.4303"></google-map-marker>
-        <google-map-marker icon="../resources/circle.png" latitude="37.7981" longitude="-122.4301"></google-map-marker>
-        <google-map-marker icon="../resources/circle.png" latitude="37.7931" longitude="-122.4311"></google-map-marker>
 
 
-        <google-map-marker icon="../resources/circle.png" latitude="37.7805" longitude="-122.4675"></google-map-marker>
-        <google-map-marker icon="../resources/circle.png" latitude="37.7811" longitude="-122.4681"></google-map-marker>
-        <google-map-marker icon="../resources/circle.png" latitude="37.7815" longitude="-122.4701"></google-map-marker>
-        <google-map-marker icon="../resources/circle.png" latitude="37.7816" longitude="-122.4617"></google-map-marker>
-        <google-map-marker icon="../resources/circle.png" latitude="37.7821" longitude="-122.4703"></google-map-marker>
-        <google-map-marker icon="../resources/circle.png" latitude="37.7781" longitude="-122.4701"></google-map-marker>
-        <google-map-marker icon="../resources/circle.png" latitude="37.7731" longitude="-122.4711"></google-map-marker>
 
+    <ui-gmap-google-map center='map.center' zoom='map.zoom'>
+        <ui-gmap-layer namespace="visualization" type="HeatmapLayer" show="map.showHeat" onCreated="map.heatLayerCallback"></ui-gmap-layer>
+    </ui-gmap-google-map>
+
+
+
+
+    <div class="mapOption">
+
+    <button type="button" class="btn btn-primary" ng-click="chose0()">Refresh</button>
+    <button type="button" class="btn btn-primary" ng-click="chose1()">Able</button>
+    <button type="button" class="btn btn-primary" ng-click="chose2()">Disable</button>
+    <button type="button" class="btn btn-primary" ng-click="chose3()">CO Map</button>
+
+<!--         <div class="btn-group" data-toggle="buttons">
+          <label class="btn btn-primary active">
+            <input type="radio" name="options" id="option1" autocomplete="off" ng-click="chose1()" checked> Temperature
+          </label>
+          <label class="btn btn-primary">
+            <input type="radio" name="options" id="option2" autocomplete="off" ng-click="chose2()" > Pollute
+          </label>
+
+        </div> -->
 
 
 <!-- 
-        <google-map-marker icon="../resources/circle.png" latitude="37.7813" longitude="-122.3893"></google-map-marker>
-        <google-map-marker icon="../resources/circle.png" latitude="37.7813" longitude="-122.3893"></google-map-marker>
-        <google-map-marker icon="../resources/circle.png" latitude="37.7813" longitude="-122.3893"></google-map-marker>
-        <google-map-marker icon="../resources/circle.png" latitude="37.7813" longitude="-122.3893"></google-map-marker>
-        <google-map-marker icon="../resources/circle.png" latitude="37.7813" longitude="-122.3893"></google-map-marker>
-        <google-map-marker icon="../resources/circle.png" latitude="37.7813" longitude="-122.3893"></google-map-marker>
-        <google-map-marker icon="../resources/circle.png" latitude="37.7813" longitude="-122.3893"></google-map-marker>
-        <google-map-marker icon="../resources/circle.png" latitude="37.7813" longitude="-122.3893"></google-map-marker>
-        <google-map-marker icon="../resources/circle.png" latitude="37.7813" longitude="-122.3893"></google-map-marker>
-        <google-map-marker icon="../resources/circle.png" latitude="37.7813" longitude="-122.3893"></google-map-marker>
-        <google-map-marker icon="../resources/circle.png" latitude="37.7813" longitude="-122.3893"></google-map-marker>
-        <google-map-marker icon="../resources/circle.png" latitude="37.7813" longitude="-122.3893"></google-map-marker>
-        <google-map-marker icon="../resources/circle.png" latitude="37.7813" longitude="-122.3893"></google-map-marker>
-        <google-map-marker icon="../resources/circle.png" latitude="37.7813" longitude="-122.3893"></google-map-marker>
-        <google-map-marker icon="../resources/circle.png" latitude="37.7813" longitude="-122.3893"></google-map-marker>
-        <google-map-marker icon="../resources/circle.png" latitude="37.7813" longitude="-122.3893"></google-map-marker>
-        <google-map-marker icon="../resources/circle.png" latitude="37.7813" longitude="-122.3893"></google-map-marker>
-        <google-map-marker icon="../resources/circle.png" latitude="37.7813" longitude="-122.3893"></google-map-marker>
-        <google-map-marker icon="../resources/circle.png" latitude="37.7813" longitude="-122.3893"></google-map-marker>
 
-        <google-map-marker latitude="37.779" longitude="-122.3893"></google-map-marker>
-        <google-map-marker latitude="37.779" longitude="-122.3894"></google-map-marker>
-        <google-map-marker latitude="37.779" longitude="-122.3895"></google-map-marker>
-        <google-map-marker latitude="37.779" longitude="-122.3896"></google-map-marker>
-        <google-map-marker latitude="37.779" longitude="-122.3897"></google-map-marker>
-        <google-map-marker latitude="37.779" longitude="-122.3898"></google-map-marker>
-        <google-map-marker latitude="37.779" longitude="-122.3899"></google-map-marker>
+        <div class="btn-group">
+            <label class="btn btn-success" btn-radio="'bill'" ng-change="chose1()" ng-model="newItemType">
+                Insert New Bill <span class="glyphicon glyphicon-file"></span>
+            </label>
+            <label class="btn btn-success" btn-radio="'coin'" ng-change="chose2()" ng-model="newItemType">
+                Insert New Coin <span class="glyphicon glyphicon-adjust"></span>
+            </label>
+        </div>
  -->
-    </google-map>
+<!-- 
+        <button type="button" class="btn btn-primary btn-lg disabled" onClick="chose1()" id="mapButton1">Temperature</button>
+        <button type="button" class="btn btn-primary btn-lg disabled" onClick="chose2()" id="mapButton2">Pollute</button>
+ -->
+
+    </div>
+
 </div>

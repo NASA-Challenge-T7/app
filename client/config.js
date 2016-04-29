@@ -8,8 +8,13 @@
                      templateUrl: "client/landing/landing.view.html",
                 })
                  .when("/map", {
+
                      templateUrl: "client/map/map.view.html",
                       controller: "MapController"
+                 })
+                 .when("/mapCO", {
+                     templateUrl: "client/map/map2.view.html",
+                      controller: "Map2Controller"
                  })
                  .when("/recommend", {
                      templateUrl: "client/recommend/recommend.view.html",
@@ -40,5 +45,6 @@
                   .otherwise({
                     templateUrl: "client/landing/landing.view.html",
                                       });
+
 });
 })();
