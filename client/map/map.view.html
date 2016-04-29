@@ -48,9 +48,13 @@
 
     <!-- <div id="map-canvas"></div> -->
 
-<div class="map">
-        <ui-gmap-google-map center='map.center' zoom='map.zoom'></ui-gmap-google-map>
-</div>
+<!-- <div class="map"> -->
+        <ui-gmap-google-map center='map.center' zoom='map.zoom'>
+            <button type="button" text="sample" ng-click="$parent.onClick()"></button>
+            <ui-gmap-layer namespace="visualization" type="HeatmapLayer" show="map.showHeat" onCreated="map.heatLayerCallback"></ui-gmap-layer>
+            <!-- <ui-gmap-layer type="HeatmapLayer" show="show"></ui-gmap-layer> -->
+        </ui-gmap-google-map>
+<!-- </div> -->
 
 
 </div>

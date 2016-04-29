@@ -24,6 +24,7 @@
     "uuid": "http://github.com/LiosK/UUID.js/archive/v3.2.tar.gz"
   },
   "dependencies": {
-    "ngstorage": "^0.3.10"
+    "ngstorage": "^0.3.10",
+    "ngmap": "^1.17.3"
   }
 }
