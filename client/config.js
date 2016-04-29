@@ -5,12 +5,16 @@
         .config(function($routeProvider){
             $routeProvider
                  .when("/mapCH4", {
-                     templateUrl: "client/map/map.view.html",
-                      controller: "MapController"
+                     templateUrl: "client/map/mapForCH4.view.html",
+                      controller: "MapForCH4Controller"
                  })
                  .when("/mapCO", {
-                     templateUrl: "client/map/map2.view.html",
-                      controller: "Map2Controller"
+                     templateUrl: "client/map/mapForCO.view.html",
+                      controller: "MapForCOController"
+                 })
+                 .when("/mapPollen", {
+                     templateUrl: "client/map/mapForPollen.view.html",
+                      controller: "MapForPollenController"
                  })
                  .when("/recommend", {
                      templateUrl: "client/recommend/recommend.view.html",
@@ -33,8 +37,8 @@
                      templateUrl: "client/profile/profile.view.html",
                  })
                   .otherwise({
-                     templateUrl: "client/map/map.view.html",
-                      controller: "MapController"
+                     templateUrl: "client/map/mapForCH4.view.html",
+                      controller: "MapForCH4Controller"
                 });
 });
 })();

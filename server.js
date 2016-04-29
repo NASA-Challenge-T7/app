@@ -1,6 +1,6 @@
 var express = require('express');
 var amazonProductsRoute = require('./server/routes/amazon-products');
-
+var pollenLoaderRoute = require('./server/routes/pollen-loader');
 
 
 // ----------------------------------------------
@@ -32,6 +32,7 @@ app.get("/",function(req,res){
 });
 
 app.use('/api', amazonProductsRoute);
+app.use('/pollen', pollenLoaderRoute);
 
 
 var port = process.env.VCAP_APP_PORT || 3000;
