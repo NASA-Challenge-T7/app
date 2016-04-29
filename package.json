@@ -12,8 +12,10 @@
     "type": "git",
     "url": "git+https://github.com/NASA-Challenge-T7/app.git"
   },
-  "author": "",
-  "license": "MIT",
+
+  "author": "i848709",
+  "license": "ISC",
+
   "bugs": {
     "url": "https://github.com/NASA-Challenge-T7/app/issues"
   },
@@ -31,8 +33,11 @@
     "express": "^4.13.4",
     "google-maps": "^3.2.1",
     "highcharts-ng": "0.0.11",
+
+    "mongodb": "^2.1.18",
     "n3-charts": "^2.0.25",
-    "angular-simple-logger": ">=0.0.1",
+    "path": "^0.12.7",
+    "angular-simple-logger":">=0.0.1",
     "lodash": "3.X - 4.X"
   },
   "dependencies": {
