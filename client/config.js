@@ -4,9 +4,13 @@
         .module("SpaceApp")
         .config(function($routeProvider){
             $routeProvider
-                 .when("/", {
+                 .when("/map", {
                      templateUrl: "client/map/map.view.html",
                       controller: "MapController"
+                 })
+                 .when("/map2", {
+                     templateUrl: "client/map/map2.view.html",
+                      controller: "Map2Controller"
                  })
                  .when("/recommend", {
                      templateUrl: "client/recommend/recommend.view.html",
