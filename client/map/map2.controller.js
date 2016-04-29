@@ -13,7 +13,7 @@
 	            latitude: 37.782551,
 	            longitude: -122.445368
 	            },
-	            zoom: 7,
+	            zoom: 5,
 	            heatLayerCallback: function (layer) {
 	                //set the heat layers backend data
 	                var mockHeatLayer = new MockHeatLayer(layer, app.heatData2);
@@ -46,7 +46,7 @@
 
 		    $scope.chose3 = function(){
                 console.log("CHOSE3 on");
-				$location.path("/map");
+				$location.path("/mapCH4");
 		        // // // $scope.map.showHeat = false;
 	         //    $scope.map.heatLayerCallback = function (layer) {
 	         //        layer.setData(null);

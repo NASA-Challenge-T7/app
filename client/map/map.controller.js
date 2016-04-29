@@ -12,13 +12,19 @@
 	            latitude: 37.782551,
 	            longitude: -122.445368
 	            },
-	            zoom: 12,
+	            zoom: 5,
 	            heatLayerCallback: function (layer) {
 	                //set the heat layers backend data
 	                var mockHeatLayer = new MockHeatLayer(layer, app.heatData1);
 	                },
 	            showHeat: true
             };
+
+
+		    $scope.chose0 = function(){
+                console.log("CHOSE0 on");
+		        $route.reload();
+		    };
 
 		    $scope.chose1 = function(){
                 console.log("CHOSE1 on");
@@ -39,7 +45,7 @@
 
 		    $scope.chose3 = function(){
                 console.log("CHOSE3 on");
-				$location.path("/map2");
+				$location.path("/mapCO");
 		        // // // $scope.map.showHeat = false;
 	         //    $scope.map.heatLayerCallback = function (layer) {
 	         //        layer.setData(null);
@@ -61,6 +67,23 @@
 			    var map, pointarray, heatmap;
 			    var pointArray = new google.maps.MVCArray(data);
 			    heatLayer.setData(pointArray);
+			    heatLayer.set('radius', 50);
+			    heatLayer.set('gradient',
+			    	[
+				    'rgba(255, 255, 255, 0.8)',
+				    'rgba(0, 255, 255, 1)',
+				    'rgba(0, 255, 191, 1)',
+				    'rgba(0, 255, 127, 1)',
+				    'rgba(0, 255, 63, 1)',
+				    'rgba(0, 255, 0, 1)',
+				    'rgba(0, 223, 0, 1)',
+				    'rgba(0, 191, 0, 1)',
+				    'rgba(0, 159, 0, 1)',
+				    'rgba(0, 127, 0, 1)',
+				    'rgba(63, 91, 0, 1)',
+				    'rgba(127, 63, 0, 1)',
+				    'rgba(191, 31, 0, 1)',
+				    'rgba(255, 0, 0, 1)']);
 		    }
 
 
