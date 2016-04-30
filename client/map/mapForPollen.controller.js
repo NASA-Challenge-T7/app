@@ -17,11 +17,14 @@
 	            var widenAreaNum = 10;
 	            var widenAreaMargin = 0.005;
 
-	            for (var i = 0; i < widenAreaNum; i++) {
-	            	for (var j = 0; j < widenAreaNum; j++){
+	            // for (var i = 0; i < widenAreaNum; i++) {
+	            // 	for (var j = 0; j < widenAreaNum; j++){
 
-	            		var targetLat = currentLat - widenAreaMargin * widenAreaNum + widenAreaMargin * j;
-	            		var targetLon = currentLon - widenAreaMargin * widenAreaNum + widenAreaMargin * i;
+	            		var targetLat = tmpLat;
+	            		var targetLon = tmpLon;
+
+	            		// var targetLat = currentLat - widenAreaMargin * widenAreaNum + widenAreaMargin * j;
+	            		// var targetLon = currentLon - widenAreaMargin * widenAreaNum + widenAreaMargin * i;
 	            		var weight = 0;
 
 			          	// return $http.get("/pollen/pollen-loader?lat=" + targetLat + "&lon=" + targetLon).then(function(data) {
@@ -37,8 +40,8 @@
 
 		                	return inputData;
 	            		});
-	            	}
-	        	}
+	         //    	}
+	        	// }
 
 	        }
 

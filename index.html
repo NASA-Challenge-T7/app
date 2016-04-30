@@ -52,6 +52,7 @@
   <script src='node_modules/angular-sanitize/angular-sanitize.js'></script>
   <script src='node_modules/angular-touch/angular-touch.js'></script>
   <script src='bower_components/ngstorage/ngstorage.js'></script>
+  <script src='node_modules/angular-google-maps-geocoder/src/angular-google-maps-geocoder.js'></script>
 
   <script src='node_modules/request/request.js'></script>
 
@@ -134,7 +135,10 @@
             </div>
             <div class="col-xs-2">
                  <form class="navbar-form navbar-right">
-            <input type="text" class="form-control" placeholder="Search Location...">
+            <input ng-model="model.location" type="text" class="form-control" ng-change="changeLocation()" placeholder="Search Location...">
+<!--                             <button type="button" class="btn btn-primary" ng-click="model.submit()">
+                       Submit
+                </button> -->
           </form>
             </div>
          
