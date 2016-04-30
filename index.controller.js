@@ -33,12 +33,14 @@
               // console.log(address + ":" + results[0].geometry.location);
               if (status == google.maps.GeocoderStatus.OK) {
                 
-                console.log("Get location");
+                console.log(results[0]);
+                var name = results[0].formatted_address;
                 var geoLocation = results[0].geometry.location;
 
                 // console.log("/pollen/pollen-loader?lat=" + geoLocation.lat() + "&lon=" + geoLocation.lng());
                 $http.get("/pollen/pollen-loader?lat=" + geoLocation.lat() + "&lon=" + geoLocation.lng()).then(function(data) {
                   console.log(data);
+                  $scope.name = name;
                   $scope.pollen_count = data.data.pollen_count;
                   $scope.temperature = data.data.temperature;
                   $scope.weather = data.data.weather;
