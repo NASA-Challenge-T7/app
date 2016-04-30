@@ -49,6 +49,9 @@
                   .when("/medical", {
                      templateUrl: "client/medical/medical.view.html",
                  })
+                    .when("/alert", {
+                     templateUrl: "client/alert/alert.view.html",
+                 })
                   .otherwise({
                     templateUrl: "client/landing/landing.view.html",
                                       });
