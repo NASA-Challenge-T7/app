@@ -10,7 +10,7 @@ var amazonProductsRoute = require('./server/routes/amazon-products');
 
 var app = express();
 
-var port = process.env.PORT || 3000;
+var port = process.env.VCAP_APP_PORT || 3000;
  app.use(express.static(__dirname + '/'));
 
  app.get("/",function(req,res){
