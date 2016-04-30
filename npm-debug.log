@@ -1,104 +1,104 @@
 0 info it worked if it ends with ok
 1 verbose cli [ 'C:\\Program Files (x86)\\Nodist\\v\\nodev5.9.1\\node.exe',
 1 verbose cli   'C:\\Program Files (x86)\\Nodist\\bin\\node_modules\\npm\\bin\\npm-cli.js',
-1 verbose cli   'install',
-1 verbose cli   'angular-storage' ]
+1 verbose cli   'install' ]
 2 info using npm@3.8.7
 3 info using node@v5.9.1
 4 silly loadCurrentTree Starting
 5 silly install loadCurrentTree
 6 silly install readLocalPackageData
-7 silly fetchPackageMetaData angular-storage
-8 silly fetchNamedPackageData angular-storage
-9 silly mapToRegistry name angular-storage
-10 silly mapToRegistry using default registry
-11 silly mapToRegistry registry https://registry.npmjs.org/
-12 silly mapToRegistry data Result {
-12 silly mapToRegistry   raw: 'angular-storage',
-12 silly mapToRegistry   scope: null,
-12 silly mapToRegistry   name: 'angular-storage',
-12 silly mapToRegistry   rawSpec: '',
-12 silly mapToRegistry   spec: 'latest',
-12 silly mapToRegistry   type: 'tag' }
-13 silly mapToRegistry uri https://registry.npmjs.org/angular-storage
-14 verbose request uri https://registry.npmjs.org/angular-storage
-15 verbose request no auth needed
-16 info attempt registry request try #1 at 11:03:23 PM
-17 verbose request id 5bea0dbb24434bbb
-18 verbose etag "CM0KXE9ZZX4XPGUFRYTQKZ9QN"
-19 http request GET https://registry.npmjs.org/angular-storage
-20 http 304 https://registry.npmjs.org/angular-storage
-21 verbose headers { date: 'Sat, 30 Apr 2016 06:03:23 GMT',
-21 verbose headers   via: '1.1 varnish',
-21 verbose headers   'cache-control': 'max-age=300',
-21 verbose headers   etag: '"CM0KXE9ZZX4XPGUFRYTQKZ9QN"',
-21 verbose headers   age: '0',
-21 verbose headers   connection: 'keep-alive',
-21 verbose headers   'x-served-by': 'cache-dfw1823-DFW',
-21 verbose headers   'x-cache': 'MISS',
-21 verbose headers   'x-cache-hits': '0',
-21 verbose headers   'x-timer': 'S1461996203.982718,VS0,VE261',
-21 verbose headers   vary: 'Accept-Encoding' }
-22 silly get cb [ 304,
-22 silly get   { date: 'Sat, 30 Apr 2016 06:03:23 GMT',
-22 silly get     via: '1.1 varnish',
-22 silly get     'cache-control': 'max-age=300',
-22 silly get     etag: '"CM0KXE9ZZX4XPGUFRYTQKZ9QN"',
-22 silly get     age: '0',
-22 silly get     connection: 'keep-alive',
-22 silly get     'x-served-by': 'cache-dfw1823-DFW',
-22 silly get     'x-cache': 'MISS',
-22 silly get     'x-cache-hits': '0',
-22 silly get     'x-timer': 'S1461996203.982718,VS0,VE261',
-22 silly get     vary: 'Accept-Encoding' } ]
-23 verbose etag https://registry.npmjs.org/angular-storage from cache
-24 verbose get saving angular-storage to C:\Users\c5236199\AppData\Roaming\npm-cache\registry.npmjs.org\angular-storage\.cache.json
-25 verbose correctMkdir C:\Users\c5236199\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
-26 silly install normalizeTree
-27 silly loadCurrentTree Finishing
-28 silly loadIdealTree Starting
-29 silly install loadIdealTree
-30 silly cloneCurrentTree Starting
-31 silly install cloneCurrentTreeToIdealTree
-32 silly cloneCurrentTree Finishing
-33 silly loadShrinkwrap Starting
-34 silly install loadShrinkwrap
-35 silly loadShrinkwrap Finishing
-36 silly loadAllDepsIntoIdealTree Starting
-37 silly install loadAllDepsIntoIdealTree
-38 silly resolveWithNewModule angular-storage@0.0.15 checking installable status
-39 silly cache add args [ 'angular-storage', null ]
-40 verbose cache add spec angular-storage
-41 silly cache add parsed spec Result {
-41 silly cache add   raw: 'angular-storage',
-41 silly cache add   scope: null,
-41 silly cache add   name: 'angular-storage',
-41 silly cache add   rawSpec: '',
-41 silly cache add   spec: 'latest',
-41 silly cache add   type: 'tag' }
-42 silly addNamed angular-storage@latest
-43 verbose addNamed "latest" is being treated as a dist-tag for angular-storage
-44 info addNameTag [ 'angular-storage', 'latest' ]
-45 silly mapToRegistry name angular-storage
-46 silly mapToRegistry using default registry
-47 silly mapToRegistry registry https://registry.npmjs.org/
-48 silly mapToRegistry data Result {
-48 silly mapToRegistry   raw: 'angular-storage',
-48 silly mapToRegistry   scope: null,
-48 silly mapToRegistry   name: 'angular-storage',
-48 silly mapToRegistry   rawSpec: '',
-48 silly mapToRegistry   spec: 'latest',
-48 silly mapToRegistry   type: 'tag' }
-49 silly mapToRegistry uri https://registry.npmjs.org/angular-storage
-50 verbose addNameTag registry:https://registry.npmjs.org/angular-storage not in flight; fetching
-51 verbose get https://registry.npmjs.org/angular-storage not expired, no request
-52 silly addNameTag next cb for angular-storage with tag latest
-53 silly addNamed angular-storage@0.0.15
-54 verbose addNamed "0.0.15" is a plain semver version for angular-storage
-55 silly cache afterAdd angular-storage@0.0.15
-56 verbose afterAdd C:\Users\c5236199\AppData\Roaming\npm-cache\angular-storage\0.0.15\package\package.json not in flight; writing
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData google-maps
+20 silly mapToRegistry name google-maps
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry data Result {
+23 silly mapToRegistry   raw: 'google-maps',
+23 silly mapToRegistry   scope: null,
+23 silly mapToRegistry   name: 'google-maps',
+23 silly mapToRegistry   rawSpec: '',
+23 silly mapToRegistry   spec: 'latest',
+23 silly mapToRegistry   type: 'tag' }
+24 silly mapToRegistry uri https://registry.npmjs.org/google-maps
+25 verbose request uri https://registry.npmjs.org/google-maps
+26 verbose request no auth needed
+27 info attempt registry request try #1 at 11:19:43 PM
+28 verbose request id ee57db41285c907b
+29 verbose etag "AFJGU5LZ9BN7OU40IS4PTGHD9"
+30 http request GET https://registry.npmjs.org/google-maps
+31 http 304 https://registry.npmjs.org/google-maps
+32 verbose headers { date: 'Sat, 30 Apr 2016 06:19:44 GMT',
+32 verbose headers   via: '1.1 varnish',
+32 verbose headers   'cache-control': 'max-age=300',
+32 verbose headers   etag: '"AFJGU5LZ9BN7OU40IS4PTGHD9"',
+32 verbose headers   age: '0',
+32 verbose headers   connection: 'keep-alive',
+32 verbose headers   'x-served-by': 'cache-dfw1846-DFW',
+32 verbose headers   'x-cache': 'MISS',
+32 verbose headers   'x-cache-hits': '0',
+32 verbose headers   'x-timer': 'S1461997184.158281,VS0,VE185',
+32 verbose headers   vary: 'Accept-Encoding' }
+33 silly get cb [ 304,
+33 silly get   { date: 'Sat, 30 Apr 2016 06:19:44 GMT',
+33 silly get     via: '1.1 varnish',
+33 silly get     'cache-control': 'max-age=300',
+33 silly get     etag: '"AFJGU5LZ9BN7OU40IS4PTGHD9"',
+33 silly get     age: '0',
+33 silly get     connection: 'keep-alive',
+33 silly get     'x-served-by': 'cache-dfw1846-DFW',
+33 silly get     'x-cache': 'MISS',
+33 silly get     'x-cache-hits': '0',
+33 silly get     'x-timer': 'S1461997184.158281,VS0,VE185',
+33 silly get     vary: 'Accept-Encoding' } ]
+34 verbose etag https://registry.npmjs.org/google-maps from cache
+35 verbose get saving google-maps to C:\Users\c5236199\AppData\Roaming\npm-cache\registry.npmjs.org\google-maps\.cache.json
+36 verbose correctMkdir C:\Users\c5236199\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+37 silly resolveWithNewModule google-maps@3.2.1 checking installable status
+38 silly cache add args [ 'google-maps@^3.2.1', null ]
+39 verbose cache add spec google-maps@^3.2.1
+40 silly cache add parsed spec Result {
+40 silly cache add   raw: 'google-maps@^3.2.1',
+40 silly cache add   scope: null,
+40 silly cache add   name: 'google-maps',
+40 silly cache add   rawSpec: '^3.2.1',
+40 silly cache add   spec: '>=3.2.1 <4.0.0',
+40 silly cache add   type: 'range' }
+41 silly addNamed google-maps@>=3.2.1 <4.0.0
+42 verbose addNamed ">=3.2.1 <4.0.0" is a valid semver range for google-maps
+43 silly addNameRange { name: 'google-maps', range: '>=3.2.1 <4.0.0', hasData: false }
+44 silly mapToRegistry name google-maps
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry https://registry.npmjs.org/
+47 silly mapToRegistry data Result {
+47 silly mapToRegistry   raw: 'google-maps',
+47 silly mapToRegistry   scope: null,
+47 silly mapToRegistry   name: 'google-maps',
+47 silly mapToRegistry   rawSpec: '',
+47 silly mapToRegistry   spec: 'latest',
+47 silly mapToRegistry   type: 'tag' }
+48 silly mapToRegistry uri https://registry.npmjs.org/google-maps
+49 verbose addNameRange registry:https://registry.npmjs.org/google-maps not in flight; fetching
+50 verbose get https://registry.npmjs.org/google-maps not expired, no request
+51 silly addNameRange number 2 { name: 'google-maps', range: '>=3.2.1 <4.0.0', hasData: true }
+52 silly addNameRange versions [ 'google-maps',
+52 silly addNameRange   [ '1.0.0', '2.0.0', '2.1.1', '3.0.0', '3.1.0', '3.2.0', '3.2.1' ] ]
+53 silly addNamed google-maps@3.2.1
+54 verbose addNamed "3.2.1" is a plain semver version for google-maps
+55 silly cache afterAdd google-maps@3.2.1
+56 verbose afterAdd C:\Users\c5236199\AppData\Roaming\npm-cache\google-maps\3.2.1\package\package.json not in flight; writing
 57 verbose correctMkdir C:\Users\c5236199\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
-58 verbose afterAdd C:\Users\c5236199\AppData\Roaming\npm-cache\angular-storage\0.0.15\package\package.json written
+58 verbose afterAdd C:\Users\c5236199\AppData\Roaming\npm-cache\google-maps\3.2.1\package\package.json written
 59 silly fetchNamedPackageData fsevents
 60 silly mapToRegistry name fsevents
 61 silly mapToRegistry using default registry
@@ -113,32 +113,32 @@
 64 silly mapToRegistry uri https://registry.npmjs.org/fsevents
 65 verbose request uri https://registry.npmjs.org/fsevents
 66 verbose request no auth needed
-67 info attempt registry request try #1 at 11:03:25 PM
+67 info attempt registry request try #1 at 11:19:45 PM
 68 verbose etag "6WG2IHJ3R1KBCEVEQH5157IQJ"
 69 http request GET https://registry.npmjs.org/fsevents
 70 http 304 https://registry.npmjs.org/fsevents
-71 verbose headers { date: 'Sat, 30 Apr 2016 06:03:25 GMT',
+71 verbose headers { date: 'Sat, 30 Apr 2016 06:19:45 GMT',
 71 verbose headers   via: '1.1 varnish',
 71 verbose headers   'cache-control': 'max-age=300',
 71 verbose headers   etag: '"6WG2IHJ3R1KBCEVEQH5157IQJ"',
-71 verbose headers   age: '97',
+71 verbose headers   age: '161',
 71 verbose headers   connection: 'keep-alive',
-71 verbose headers   'x-served-by': 'cache-dfw1823-DFW',
+71 verbose headers   'x-served-by': 'cache-dfw1846-DFW',
 71 verbose headers   'x-cache': 'HIT',
-71 verbose headers   'x-cache-hits': '2',
-71 verbose headers   'x-timer': 'S1461996205.553827,VS0,VE0',
+71 verbose headers   'x-cache-hits': '3',
+71 verbose headers   'x-timer': 'S1461997185.088736,VS0,VE0',
 71 verbose headers   vary: 'Accept-Encoding' }
 72 silly get cb [ 304,
-72 silly get   { date: 'Sat, 30 Apr 2016 06:03:25 GMT',
+72 silly get   { date: 'Sat, 30 Apr 2016 06:19:45 GMT',
 72 silly get     via: '1.1 varnish',
 72 silly get     'cache-control': 'max-age=300',
 72 silly get     etag: '"6WG2IHJ3R1KBCEVEQH5157IQJ"',
-72 silly get     age: '97',
+72 silly get     age: '161',
 72 silly get     connection: 'keep-alive',
-72 silly get     'x-served-by': 'cache-dfw1823-DFW',
+72 silly get     'x-served-by': 'cache-dfw1846-DFW',
 72 silly get     'x-cache': 'HIT',
-72 silly get     'x-cache-hits': '2',
-72 silly get     'x-timer': 'S1461996205.553827,VS0,VE0',
+72 silly get     'x-cache-hits': '3',
+72 silly get     'x-timer': 'S1461997185.088736,VS0,VE0',
 72 silly get     vary: 'Accept-Encoding' } ]
 73 verbose etag https://registry.npmjs.org/fsevents from cache
 74 verbose get saving fsevents to C:\Users\c5236199\AppData\Roaming\npm-cache\registry.npmjs.org\fsevents\.cache.json
@@ -209,6 +209,8 @@
 78 silly idealTree:prePrune +-- async@0.2.10
 78 silly idealTree:prePrune +-- aws-lib@0.3.0
 78 silly idealTree:prePrune +-- aws-sign2@0.5.0
+78 silly idealTree:prePrune +-- aws4@1.3.2
+78 silly idealTree:prePrune | `-- lru-cache@4.0.1
 78 silly idealTree:prePrune +-- backo2@1.0.2
 78 silly idealTree:prePrune +-- balanced-match@0.3.0
 78 silly idealTree:prePrune +-- base62@0.1.1
@@ -251,6 +253,16 @@
 78 silly idealTree:prePrune | +-- request@2.51.0
 78 silly idealTree:prePrune | `-- rimraf@2.2.8
 78 silly idealTree:prePrune +-- bower@1.4.2
+78 silly idealTree:prePrune | +-- boom@2.10.1
+78 silly idealTree:prePrune | +-- caseless@0.9.0
+78 silly idealTree:prePrune | +-- cryptiles@2.0.5
+78 silly idealTree:prePrune | +-- hawk@2.3.1
+78 silly idealTree:prePrune | +-- hoek@2.16.3
+78 silly idealTree:prePrune | +-- mime-db@1.12.0
+78 silly idealTree:prePrune | +-- mime-types@2.0.14
+78 silly idealTree:prePrune | +-- oauth-sign@0.6.0
+78 silly idealTree:prePrune | +-- request@2.53.0
+78 silly idealTree:prePrune | `-- sntp@1.0.9
 78 silly idealTree:prePrune +-- bplist-parser@0.1.1
 78 silly idealTree:prePrune +-- brace-expansion@1.1.3
 78 silly idealTree:prePrune +-- braces@1.8.4
@@ -259,6 +271,7 @@
 78 silly idealTree:prePrune | +-- osenv@0.1.3
 78 silly idealTree:prePrune | `-- rimraf@2.2.8
 78 silly idealTree:prePrune +-- browserify-zlib@0.1.4
+78 silly idealTree:prePrune +-- bson@0.4.23
 78 silly idealTree:prePrune +-- buffer-crc32@0.2.5
 78 silly idealTree:prePrune +-- buffer@3.6.0
 78 silly idealTree:prePrune | `-- isarray@1.0.0
@@ -398,6 +411,7 @@
 78 silly idealTree:prePrune +-- es5-ext@0.10.11
 78 silly idealTree:prePrune +-- es5-shim@4.5.8
 78 silly idealTree:prePrune +-- es6-iterator@2.0.0
+78 silly idealTree:prePrune +-- es6-promise@3.0.2
 78 silly idealTree:prePrune +-- es6-symbol@3.0.2
 78 silly idealTree:prePrune +-- es6-weak-map@0.1.4
 78 silly idealTree:prePrune | +-- es6-iterator@0.1.3
@@ -454,13 +468,18 @@
 78 silly idealTree:prePrune +-- form-data@0.2.0
 78 silly idealTree:prePrune | +-- async@0.9.2
 78 silly idealTree:prePrune | `-- mime-types@2.0.14
+78 silly idealTree:prePrune |   `-- mime-db@1.12.0
 78 silly idealTree:prePrune +-- forwarded@0.1.0
 78 silly idealTree:prePrune +-- fresh@0.3.0
 78 silly idealTree:prePrune +-- from@0.1.3
 78 silly idealTree:prePrune +-- fstream-ignore@1.0.3
 78 silly idealTree:prePrune +-- fstream@1.0.8
 78 silly idealTree:prePrune | `-- graceful-fs@4.1.3
+78 silly idealTree:prePrune +-- generate-function@2.0.0
+78 silly idealTree:prePrune +-- generate-object-property@1.2.0
 78 silly idealTree:prePrune +-- get-stdin@4.0.1
+78 silly idealTree:prePrune +-- getpass@0.1.6
+78 silly idealTree:prePrune | `-- assert-plus@1.0.0
 78 silly idealTree:prePrune +-- github-url-from-git@1.4.0
 78 silly idealTree:prePrune +-- github-url-from-username-repo@1.0.2
 78 silly idealTree:prePrune +-- github@0.2.4
@@ -476,6 +495,7 @@
 78 silly idealTree:prePrune +-- growl@1.8.1
 78 silly idealTree:prePrune +-- handlebars@2.0.0
 78 silly idealTree:prePrune | `-- optimist@0.3.7
+78 silly idealTree:prePrune +-- har-validator@2.0.6
 78 silly idealTree:prePrune +-- has-ansi@2.0.0
 78 silly idealTree:prePrune +-- has-cors@1.1.0
 78 silly idealTree:prePrune +-- has-flag@1.0.0
@@ -525,14 +545,17 @@
 78 silly idealTree:prePrune +-- is-extglob@1.0.0
 78 silly idealTree:prePrune +-- is-finite@1.0.1
 78 silly idealTree:prePrune +-- is-glob@2.0.1
+78 silly idealTree:prePrune +-- is-my-json-valid@2.13.1
 78 silly idealTree:prePrune +-- is-npm@1.0.0
 78 silly idealTree:prePrune +-- is-number@2.1.0
 78 silly idealTree:prePrune +-- is-posix-bracket@0.1.1
 78 silly idealTree:prePrune +-- is-primitive@2.0.0
+78 silly idealTree:prePrune +-- is-property@1.0.2
 78 silly idealTree:prePrune +-- is-redirect@1.0.0
 78 silly idealTree:prePrune +-- is-relative@0.1.3
 78 silly idealTree:prePrune +-- is-root@1.0.0
 78 silly idealTree:prePrune +-- is-stream@1.1.0
+78 silly idealTree:prePrune +-- is-typedarray@1.0.0
 78 silly idealTree:prePrune +-- is-utf8@0.2.1
 78 silly idealTree:prePrune +-- isarray@0.0.1
 78 silly idealTree:prePrune +-- isexe@1.1.2
@@ -542,15 +565,19 @@
 78 silly idealTree:prePrune +-- jade@0.26.3
 78 silly idealTree:prePrune | +-- commander@0.6.1
 78 silly idealTree:prePrune | `-- mkdirp@0.3.0
+78 silly idealTree:prePrune +-- jodid25519@1.0.2
 78 silly idealTree:prePrune +-- jquery@2.2.3
 78 silly idealTree:prePrune +-- js-tokens@1.0.3
 78 silly idealTree:prePrune +-- js-yaml@3.6.0
 78 silly idealTree:prePrune | `-- esprima@2.7.2
 78 silly idealTree:prePrune +-- jsbn@0.1.0
+78 silly idealTree:prePrune +-- json-schema@0.2.2
 78 silly idealTree:prePrune +-- json-stringify-safe@5.0.1
 78 silly idealTree:prePrune +-- json5@0.5.0
 78 silly idealTree:prePrune +-- jsonfile@2.3.0
 78 silly idealTree:prePrune +-- jsonify@0.0.0
+78 silly idealTree:prePrune +-- jsonpointer@2.0.0
+78 silly idealTree:prePrune +-- jsprim@1.2.2
 78 silly idealTree:prePrune +-- jstransform@10.1.0
 78 silly idealTree:prePrune | +-- esprima-fb@13001.1001.0-dev-harmony-fb
 78 silly idealTree:prePrune | `-- source-map@0.1.31
@@ -588,7 +615,7 @@
 78 silly idealTree:prePrune +-- method-override@2.3.5
 78 silly idealTree:prePrune +-- methods@1.1.2
 78 silly idealTree:prePrune +-- micromatch@2.3.8
-78 silly idealTree:prePrune +-- mime-db@1.12.0
+78 silly idealTree:prePrune +-- mime-db@1.22.0
 78 silly idealTree:prePrune +-- mime-types@1.0.2
 78 silly idealTree:prePrune +-- mime@1.3.4
 78 silly idealTree:prePrune +-- minimatch@3.0.0
@@ -605,6 +632,9 @@
 78 silly idealTree:prePrune | +-- minimist@0.0.8
 78 silly idealTree:prePrune | +-- mkdirp@0.5.1
 78 silly idealTree:prePrune | `-- supports-color@1.2.0
+78 silly idealTree:prePrune +-- mongodb-core@1.3.18
+78 silly idealTree:prePrune +-- mongodb@2.1.18
+78 silly idealTree:prePrune | `-- readable-stream@1.0.31
 78 silly idealTree:prePrune +-- morgan@1.6.1
 78 silly idealTree:prePrune | `-- depd@1.0.1
 78 silly idealTree:prePrune +-- mout@0.11.1
@@ -658,6 +688,7 @@
 78 silly idealTree:prePrune +-- path-to-regexp@0.1.7
 78 silly idealTree:prePrune +-- path-type@1.1.0
 78 silly idealTree:prePrune | `-- graceful-fs@4.1.3
+78 silly idealTree:prePrune +-- path@0.12.7
 78 silly idealTree:prePrune +-- pause-stream@0.0.11
 78 silly idealTree:prePrune +-- pause@0.1.0
 78 silly idealTree:prePrune +-- pbkdf2-compat@2.0.1
@@ -679,6 +710,7 @@
 78 silly idealTree:prePrune +-- promptly@0.2.0
 78 silly idealTree:prePrune +-- proxy-addr@1.0.10
 78 silly idealTree:prePrune +-- prr@0.0.0
+78 silly idealTree:prePrune +-- pseudomap@1.0.2
 78 silly idealTree:prePrune +-- pump@1.0.1
 78 silly idealTree:prePrune +-- punycode@1.4.1
 78 silly idealTree:prePrune +-- q@1.4.1
@@ -722,16 +754,31 @@
 78 silly idealTree:prePrune +-- repeating@2.0.1
 78 silly idealTree:prePrune +-- request-progress@0.3.1
 78 silly idealTree:prePrune +-- request-replay@0.2.0
-78 silly idealTree:prePrune +-- request@2.53.0
+78 silly idealTree:prePrune +-- request@2.72.0
+78 silly idealTree:prePrune | +-- assert-plus@0.2.0
+78 silly idealTree:prePrune | +-- async@1.5.2
+78 silly idealTree:prePrune | +-- aws-sign2@0.6.0
+78 silly idealTree:prePrune | +-- bl@1.1.2
 78 silly idealTree:prePrune | +-- boom@2.10.1
-78 silly idealTree:prePrune | +-- caseless@0.9.0
+78 silly idealTree:prePrune | +-- caseless@0.11.0
+78 silly idealTree:prePrune | +-- combined-stream@1.0.5
 78 silly idealTree:prePrune | +-- cryptiles@2.0.5
-78 silly idealTree:prePrune | +-- hawk@2.3.1
+78 silly idealTree:prePrune | +-- delayed-stream@1.0.0
+78 silly idealTree:prePrune | +-- forever-agent@0.6.1
+78 silly idealTree:prePrune | +-- form-data@1.0.0-rc4
+78 silly idealTree:prePrune | +-- hawk@3.1.3
 78 silly idealTree:prePrune | +-- hoek@2.16.3
-78 silly idealTree:prePrune | +-- mime-types@2.0.14
-78 silly idealTree:prePrune | +-- oauth-sign@0.6.0
+78 silly idealTree:prePrune | +-- http-signature@1.1.1
+78 silly idealTree:prePrune | +-- isarray@1.0.0
+78 silly idealTree:prePrune | +-- mime-types@2.1.10
+78 silly idealTree:prePrune | +-- oauth-sign@0.8.1
+78 silly idealTree:prePrune | +-- qs@6.1.0
+78 silly idealTree:prePrune | +-- readable-stream@2.0.6
 78 silly idealTree:prePrune | `-- sntp@1.0.9
+78 silly idealTree:prePrune +-- require_optional@1.0.0
+78 silly idealTree:prePrune | `-- semver@5.1.0
 78 silly idealTree:prePrune +-- require-directory@2.1.1
+78 silly idealTree:prePrune +-- resolve-from@2.0.0
 78 silly idealTree:prePrune +-- response-time@2.3.1
 78 silly idealTree:prePrune | `-- depd@1.0.1
 78 silly idealTree:prePrune +-- retry@0.6.1
@@ -765,6 +812,9 @@
 78 silly idealTree:prePrune +-- spdx-license-ids@1.2.1
 78 silly idealTree:prePrune +-- split@0.3.3
 78 silly idealTree:prePrune +-- sprintf-js@1.0.3
+78 silly idealTree:prePrune +-- sshpk@1.8.3
+78 silly idealTree:prePrune | +-- asn1@0.2.3
+78 silly idealTree:prePrune | `-- assert-plus@1.0.0
 78 silly idealTree:prePrune +-- stable@0.1.5
 78 silly idealTree:prePrune +-- statuses@1.2.1
 78 silly idealTree:prePrune +-- stream-browserify@1.0.0
@@ -801,6 +851,7 @@
 78 silly idealTree:prePrune +-- trim-newlines@1.0.0
 78 silly idealTree:prePrune +-- tty-browserify@0.0.0
 78 silly idealTree:prePrune +-- tunnel-agent@0.4.2
+78 silly idealTree:prePrune +-- tweetnacl@0.13.3
 78 silly idealTree:prePrune +-- type-check@0.3.2
 78 silly idealTree:prePrune +-- type-is@1.6.12
 78 silly idealTree:prePrune | +-- mime-db@1.22.0
@@ -828,6 +879,7 @@
 78 silly idealTree:prePrune +-- uuid@2.0.2
 78 silly idealTree:prePrune +-- validate-npm-package-license@3.0.1
 78 silly idealTree:prePrune +-- vary@1.0.1
+78 silly idealTree:prePrune +-- verror@1.3.6
 78 silly idealTree:prePrune +-- vhost@3.0.2
 78 silly idealTree:prePrune +-- vm-browserify@0.0.4
 78 silly idealTree:prePrune +-- void-elements@2.0.1
@@ -860,6 +912,7 @@
 78 silly idealTree:prePrune +-- xmldom@0.1.22
 78 silly idealTree:prePrune +-- xmlhttprequest-ssl@1.5.1
 78 silly idealTree:prePrune +-- xtend@4.0.1
+78 silly idealTree:prePrune +-- yallist@2.0.0
 78 silly idealTree:prePrune +-- yargs@3.10.0
 78 silly idealTree:prePrune | `-- camelcase@1.2.1
 78 silly idealTree:prePrune +-- yauzl@2.4.1
@@ -931,6 +984,8 @@
 80 silly currentTree +-- async@0.2.10
 80 silly currentTree +-- aws-lib@0.3.0
 80 silly currentTree +-- aws-sign2@0.5.0
+80 silly currentTree +-- aws4@1.3.2
+80 silly currentTree | `-- lru-cache@4.0.1
 80 silly currentTree +-- backo2@1.0.2
 80 silly currentTree +-- balanced-match@0.3.0
 80 silly currentTree +-- base62@0.1.1
@@ -973,6 +1028,16 @@
 80 silly currentTree | +-- request@2.51.0
 80 silly currentTree | `-- rimraf@2.2.8
 80 silly currentTree +-- bower@1.4.2
+80 silly currentTree | +-- boom@2.10.1
+80 silly currentTree | +-- caseless@0.9.0
+80 silly currentTree | +-- cryptiles@2.0.5
+80 silly currentTree | +-- hawk@2.3.1
+80 silly currentTree | +-- hoek@2.16.3
+80 silly currentTree | +-- mime-db@1.12.0
+80 silly currentTree | +-- mime-types@2.0.14
+80 silly currentTree | +-- oauth-sign@0.6.0
+80 silly currentTree | +-- request@2.53.0
+80 silly currentTree | `-- sntp@1.0.9
 80 silly currentTree +-- bplist-parser@0.1.1
 80 silly currentTree +-- brace-expansion@1.1.3
 80 silly currentTree +-- braces@1.8.4
@@ -981,6 +1046,7 @@
 80 silly currentTree | +-- osenv@0.1.3
 80 silly currentTree | `-- rimraf@2.2.8
 80 silly currentTree +-- browserify-zlib@0.1.4
+80 silly currentTree +-- bson@0.4.23
 80 silly currentTree +-- buffer-crc32@0.2.5
 80 silly currentTree +-- buffer@3.6.0
 80 silly currentTree | `-- isarray@1.0.0
@@ -1120,6 +1186,7 @@
 80 silly currentTree +-- es5-ext@0.10.11
 80 silly currentTree +-- es5-shim@4.5.8
 80 silly currentTree +-- es6-iterator@2.0.0
+80 silly currentTree +-- es6-promise@3.0.2
 80 silly currentTree +-- es6-symbol@3.0.2
 80 silly currentTree +-- es6-weak-map@0.1.4
 80 silly currentTree | +-- es6-iterator@0.1.3
@@ -1176,13 +1243,18 @@
 80 silly currentTree +-- form-data@0.2.0
 80 silly currentTree | +-- async@0.9.2
 80 silly currentTree | `-- mime-types@2.0.14
+80 silly currentTree |   `-- mime-db@1.12.0
 80 silly currentTree +-- forwarded@0.1.0
 80 silly currentTree +-- fresh@0.3.0
 80 silly currentTree +-- from@0.1.3
 80 silly currentTree +-- fstream-ignore@1.0.3
 80 silly currentTree +-- fstream@1.0.8
 80 silly currentTree | `-- graceful-fs@4.1.3
+80 silly currentTree +-- generate-function@2.0.0
+80 silly currentTree +-- generate-object-property@1.2.0
 80 silly currentTree +-- get-stdin@4.0.1
+80 silly currentTree +-- getpass@0.1.6
+80 silly currentTree | `-- assert-plus@1.0.0
 80 silly currentTree +-- github-url-from-git@1.4.0
 80 silly currentTree +-- github-url-from-username-repo@1.0.2
 80 silly currentTree +-- github@0.2.4
@@ -1190,7 +1262,6 @@
 80 silly currentTree +-- glob-parent@2.0.0
 80 silly currentTree +-- glob@4.5.3
 80 silly currentTree | `-- minimatch@2.0.10
-80 silly currentTree +-- google-maps@3.2.1
 80 silly currentTree +-- got@3.3.1
 80 silly currentTree | `-- object-assign@3.0.0
 80 silly currentTree +-- graceful-fs@3.0.8
@@ -1198,6 +1269,7 @@
 80 silly currentTree +-- growl@1.8.1
 80 silly currentTree +-- handlebars@2.0.0
 80 silly currentTree | `-- optimist@0.3.7
+80 silly currentTree +-- har-validator@2.0.6
 80 silly currentTree +-- has-ansi@2.0.0
 80 silly currentTree +-- has-cors@1.1.0
 80 silly currentTree +-- has-flag@1.0.0
@@ -1247,14 +1319,17 @@
 80 silly currentTree +-- is-extglob@1.0.0
 80 silly currentTree +-- is-finite@1.0.1
 80 silly currentTree +-- is-glob@2.0.1
+80 silly currentTree +-- is-my-json-valid@2.13.1
 80 silly currentTree +-- is-npm@1.0.0
 80 silly currentTree +-- is-number@2.1.0
 80 silly currentTree +-- is-posix-bracket@0.1.1
 80 silly currentTree +-- is-primitive@2.0.0
+80 silly currentTree +-- is-property@1.0.2
 80 silly currentTree +-- is-redirect@1.0.0
 80 silly currentTree +-- is-relative@0.1.3
 80 silly currentTree +-- is-root@1.0.0
 80 silly currentTree +-- is-stream@1.1.0
+80 silly currentTree +-- is-typedarray@1.0.0
 80 silly currentTree +-- is-utf8@0.2.1
 80 silly currentTree +-- isarray@0.0.1
 80 silly currentTree +-- isexe@1.1.2
@@ -1264,15 +1339,19 @@
 80 silly currentTree +-- jade@0.26.3
 80 silly currentTree | +-- commander@0.6.1
 80 silly currentTree | `-- mkdirp@0.3.0
+80 silly currentTree +-- jodid25519@1.0.2
 80 silly currentTree +-- jquery@2.2.3
 80 silly currentTree +-- js-tokens@1.0.3
 80 silly currentTree +-- js-yaml@3.6.0
 80 silly currentTree | `-- esprima@2.7.2
 80 silly currentTree +-- jsbn@0.1.0
+80 silly currentTree +-- json-schema@0.2.2
 80 silly currentTree +-- json-stringify-safe@5.0.1
 80 silly currentTree +-- json5@0.5.0
 80 silly currentTree +-- jsonfile@2.3.0
 80 silly currentTree +-- jsonify@0.0.0
+80 silly currentTree +-- jsonpointer@2.0.0
+80 silly currentTree +-- jsprim@1.2.2
 80 silly currentTree +-- jstransform@10.1.0
 80 silly currentTree | +-- esprima-fb@13001.1001.0-dev-harmony-fb
 80 silly currentTree | `-- source-map@0.1.31
@@ -1310,7 +1389,7 @@
 80 silly currentTree +-- method-override@2.3.5
 80 silly currentTree +-- methods@1.1.2
 80 silly currentTree +-- micromatch@2.3.8
-80 silly currentTree +-- mime-db@1.12.0
+80 silly currentTree +-- mime-db@1.22.0
 80 silly currentTree +-- mime-types@1.0.2
 80 silly currentTree +-- mime@1.3.4
 80 silly currentTree +-- minimatch@3.0.0
@@ -1327,6 +1406,9 @@
 80 silly currentTree | +-- minimist@0.0.8
 80 silly currentTree | +-- mkdirp@0.5.1
 80 silly currentTree | `-- supports-color@1.2.0
+80 silly currentTree +-- mongodb-core@1.3.18
+80 silly currentTree +-- mongodb@2.1.18
+80 silly currentTree | `-- readable-stream@1.0.31
 80 silly currentTree +-- morgan@1.6.1
 80 silly currentTree | `-- depd@1.0.1
 80 silly currentTree +-- mout@0.11.1
@@ -1380,6 +1462,7 @@
 80 silly currentTree +-- path-to-regexp@0.1.7
 80 silly currentTree +-- path-type@1.1.0
 80 silly currentTree | `-- graceful-fs@4.1.3
+80 silly currentTree +-- path@0.12.7
 80 silly currentTree +-- pause-stream@0.0.11
 80 silly currentTree +-- pause@0.1.0
 80 silly currentTree +-- pbkdf2-compat@2.0.1
@@ -1401,6 +1484,7 @@
 80 silly currentTree +-- promptly@0.2.0
 80 silly currentTree +-- proxy-addr@1.0.10
 80 silly currentTree +-- prr@0.0.0
+80 silly currentTree +-- pseudomap@1.0.2
 80 silly currentTree +-- pump@1.0.1
 80 silly currentTree +-- punycode@1.4.1
 80 silly currentTree +-- q@1.4.1
@@ -1444,16 +1528,31 @@
 80 silly currentTree +-- repeating@2.0.1
 80 silly currentTree +-- request-progress@0.3.1
 80 silly currentTree +-- request-replay@0.2.0
-80 silly currentTree +-- request@2.53.0
+80 silly currentTree +-- request@2.72.0
+80 silly currentTree | +-- assert-plus@0.2.0
+80 silly currentTree | +-- async@1.5.2
+80 silly currentTree | +-- aws-sign2@0.6.0
+80 silly currentTree | +-- bl@1.1.2
 80 silly currentTree | +-- boom@2.10.1
-80 silly currentTree | +-- caseless@0.9.0
+80 silly currentTree | +-- caseless@0.11.0
+80 silly currentTree | +-- combined-stream@1.0.5
 80 silly currentTree | +-- cryptiles@2.0.5
-80 silly currentTree | +-- hawk@2.3.1
+80 silly currentTree | +-- delayed-stream@1.0.0
+80 silly currentTree | +-- forever-agent@0.6.1
+80 silly currentTree | +-- form-data@1.0.0-rc4
+80 silly currentTree | +-- hawk@3.1.3
 80 silly currentTree | +-- hoek@2.16.3
-80 silly currentTree | +-- mime-types@2.0.14
-80 silly currentTree | +-- oauth-sign@0.6.0
+80 silly currentTree | +-- http-signature@1.1.1
+80 silly currentTree | +-- isarray@1.0.0
+80 silly currentTree | +-- mime-types@2.1.10
+80 silly currentTree | +-- oauth-sign@0.8.1
+80 silly currentTree | +-- qs@6.1.0
+80 silly currentTree | +-- readable-stream@2.0.6
 80 silly currentTree | `-- sntp@1.0.9
+80 silly currentTree +-- require_optional@1.0.0
+80 silly currentTree | `-- semver@5.1.0
 80 silly currentTree +-- require-directory@2.1.1
+80 silly currentTree +-- resolve-from@2.0.0
 80 silly currentTree +-- response-time@2.3.1
 80 silly currentTree | `-- depd@1.0.1
 80 silly currentTree +-- retry@0.6.1
@@ -1487,6 +1586,9 @@
 80 silly currentTree +-- spdx-license-ids@1.2.1
 80 silly currentTree +-- split@0.3.3
 80 silly currentTree +-- sprintf-js@1.0.3
+80 silly currentTree +-- sshpk@1.8.3
+80 silly currentTree | +-- asn1@0.2.3
+80 silly currentTree | `-- assert-plus@1.0.0
 80 silly currentTree +-- stable@0.1.5
 80 silly currentTree +-- statuses@1.2.1
 80 silly currentTree +-- stream-browserify@1.0.0
@@ -1523,6 +1625,7 @@
 80 silly currentTree +-- trim-newlines@1.0.0
 80 silly currentTree +-- tty-browserify@0.0.0
 80 silly currentTree +-- tunnel-agent@0.4.2
+80 silly currentTree +-- tweetnacl@0.13.3
 80 silly currentTree +-- type-check@0.3.2
 80 silly currentTree +-- type-is@1.6.12
 80 silly currentTree | +-- mime-db@1.22.0
@@ -1550,6 +1653,7 @@
 80 silly currentTree +-- uuid@2.0.2
 80 silly currentTree +-- validate-npm-package-license@3.0.1
 80 silly currentTree +-- vary@1.0.1
+80 silly currentTree +-- verror@1.3.6
 80 silly currentTree +-- vhost@3.0.2
 80 silly currentTree +-- vm-browserify@0.0.4
 80 silly currentTree +-- void-elements@2.0.1
@@ -1582,6 +1686,7 @@
 80 silly currentTree +-- xmldom@0.1.22
 80 silly currentTree +-- xmlhttprequest-ssl@1.5.1
 80 silly currentTree +-- xtend@4.0.1
+80 silly currentTree +-- yallist@2.0.0
 80 silly currentTree +-- yargs@3.10.0
 80 silly currentTree | `-- camelcase@1.2.1
 80 silly currentTree +-- yauzl@2.4.1
@@ -1652,6 +1757,8 @@
 81 silly idealTree +-- async@0.2.10
 81 silly idealTree +-- aws-lib@0.3.0
 81 silly idealTree +-- aws-sign2@0.5.0
+81 silly idealTree +-- aws4@1.3.2
+81 silly idealTree | `-- lru-cache@4.0.1
 81 silly idealTree +-- backo2@1.0.2
 81 silly idealTree +-- balanced-match@0.3.0
 81 silly idealTree +-- base62@0.1.1
@@ -1694,6 +1801,16 @@
 81 silly idealTree | +-- request@2.51.0
 81 silly idealTree | `-- rimraf@2.2.8
 81 silly idealTree +-- bower@1.4.2
+81 silly idealTree | +-- boom@2.10.1
+81 silly idealTree | +-- caseless@0.9.0
+81 silly idealTree | +-- cryptiles@2.0.5
+81 silly idealTree | +-- hawk@2.3.1
+81 silly idealTree | +-- hoek@2.16.3
+81 silly idealTree | +-- mime-db@1.12.0
+81 silly idealTree | +-- mime-types@2.0.14
+81 silly idealTree | +-- oauth-sign@0.6.0
+81 silly idealTree | +-- request@2.53.0
+81 silly idealTree | `-- sntp@1.0.9
 81 silly idealTree +-- bplist-parser@0.1.1
 81 silly idealTree +-- brace-expansion@1.1.3
 81 silly idealTree +-- braces@1.8.4
@@ -1702,6 +1819,7 @@
 81 silly idealTree | +-- osenv@0.1.3
 81 silly idealTree | `-- rimraf@2.2.8
 81 silly idealTree +-- browserify-zlib@0.1.4
+81 silly idealTree +-- bson@0.4.23
 81 silly idealTree +-- buffer-crc32@0.2.5
 81 silly idealTree +-- buffer@3.6.0
 81 silly idealTree | `-- isarray@1.0.0
@@ -1841,6 +1959,7 @@
 81 silly idealTree +-- es5-ext@0.10.11
 81 silly idealTree +-- es5-shim@4.5.8
 81 silly idealTree +-- es6-iterator@2.0.0
+81 silly idealTree +-- es6-promise@3.0.2
 81 silly idealTree +-- es6-symbol@3.0.2
 81 silly idealTree +-- es6-weak-map@0.1.4
 81 silly idealTree | +-- es6-iterator@0.1.3
@@ -1897,13 +2016,18 @@
 81 silly idealTree +-- form-data@0.2.0
 81 silly idealTree | +-- async@0.9.2
 81 silly idealTree | `-- mime-types@2.0.14
+81 silly idealTree |   `-- mime-db@1.12.0
 81 silly idealTree +-- forwarded@0.1.0
 81 silly idealTree +-- fresh@0.3.0
 81 silly idealTree +-- from@0.1.3
 81 silly idealTree +-- fstream-ignore@1.0.3
 81 silly idealTree +-- fstream@1.0.8
 81 silly idealTree | `-- graceful-fs@4.1.3
+81 silly idealTree +-- generate-function@2.0.0
+81 silly idealTree +-- generate-object-property@1.2.0
 81 silly idealTree +-- get-stdin@4.0.1
+81 silly idealTree +-- getpass@0.1.6
+81 silly idealTree | `-- assert-plus@1.0.0
 81 silly idealTree +-- github-url-from-git@1.4.0
 81 silly idealTree +-- github-url-from-username-repo@1.0.2
 81 silly idealTree +-- github@0.2.4
@@ -1919,6 +2043,7 @@
 81 silly idealTree +-- growl@1.8.1
 81 silly idealTree +-- handlebars@2.0.0
 81 silly idealTree | `-- optimist@0.3.7
+81 silly idealTree +-- har-validator@2.0.6
 81 silly idealTree +-- has-ansi@2.0.0
 81 silly idealTree +-- has-cors@1.1.0
 81 silly idealTree +-- has-flag@1.0.0
@@ -1968,14 +2093,17 @@
 81 silly idealTree +-- is-extglob@1.0.0
 81 silly idealTree +-- is-finite@1.0.1
 81 silly idealTree +-- is-glob@2.0.1
+81 silly idealTree +-- is-my-json-valid@2.13.1
 81 silly idealTree +-- is-npm@1.0.0
 81 silly idealTree +-- is-number@2.1.0
 81 silly idealTree +-- is-posix-bracket@0.1.1
 81 silly idealTree +-- is-primitive@2.0.0
+81 silly idealTree +-- is-property@1.0.2
 81 silly idealTree +-- is-redirect@1.0.0
 81 silly idealTree +-- is-relative@0.1.3
 81 silly idealTree +-- is-root@1.0.0
 81 silly idealTree +-- is-stream@1.1.0
+81 silly idealTree +-- is-typedarray@1.0.0
 81 silly idealTree +-- is-utf8@0.2.1
 81 silly idealTree +-- isarray@0.0.1
 81 silly idealTree +-- isexe@1.1.2
@@ -1985,15 +2113,19 @@
 81 silly idealTree +-- jade@0.26.3
 81 silly idealTree | +-- commander@0.6.1
 81 silly idealTree | `-- mkdirp@0.3.0
+81 silly idealTree +-- jodid25519@1.0.2
 81 silly idealTree +-- jquery@2.2.3
 81 silly idealTree +-- js-tokens@1.0.3
 81 silly idealTree +-- js-yaml@3.6.0
 81 silly idealTree | `-- esprima@2.7.2
 81 silly idealTree +-- jsbn@0.1.0
+81 silly idealTree +-- json-schema@0.2.2
 81 silly idealTree +-- json-stringify-safe@5.0.1
 81 silly idealTree +-- json5@0.5.0
 81 silly idealTree +-- jsonfile@2.3.0
 81 silly idealTree +-- jsonify@0.0.0
+81 silly idealTree +-- jsonpointer@2.0.0
+81 silly idealTree +-- jsprim@1.2.2
 81 silly idealTree +-- jstransform@10.1.0
 81 silly idealTree | +-- esprima-fb@13001.1001.0-dev-harmony-fb
 81 silly idealTree | `-- source-map@0.1.31
@@ -2031,7 +2163,7 @@
 81 silly idealTree +-- method-override@2.3.5
 81 silly idealTree +-- methods@1.1.2
 81 silly idealTree +-- micromatch@2.3.8
-81 silly idealTree +-- mime-db@1.12.0
+81 silly idealTree +-- mime-db@1.22.0
 81 silly idealTree +-- mime-types@1.0.2
 81 silly idealTree +-- mime@1.3.4
 81 silly idealTree +-- minimatch@3.0.0
@@ -2048,6 +2180,9 @@
 81 silly idealTree | +-- minimist@0.0.8
 81 silly idealTree | +-- mkdirp@0.5.1
 81 silly idealTree | `-- supports-color@1.2.0
+81 silly idealTree +-- mongodb-core@1.3.18
+81 silly idealTree +-- mongodb@2.1.18
+81 silly idealTree | `-- readable-stream@1.0.31
 81 silly idealTree +-- morgan@1.6.1
 81 silly idealTree | `-- depd@1.0.1
 81 silly idealTree +-- mout@0.11.1
@@ -2101,6 +2236,7 @@
 81 silly idealTree +-- path-to-regexp@0.1.7
 81 silly idealTree +-- path-type@1.1.0
 81 silly idealTree | `-- graceful-fs@4.1.3
+81 silly idealTree +-- path@0.12.7
 81 silly idealTree +-- pause-stream@0.0.11
 81 silly idealTree +-- pause@0.1.0
 81 silly idealTree +-- pbkdf2-compat@2.0.1
@@ -2122,6 +2258,7 @@
 81 silly idealTree +-- promptly@0.2.0
 81 silly idealTree +-- proxy-addr@1.0.10
 81 silly idealTree +-- prr@0.0.0
+81 silly idealTree +-- pseudomap@1.0.2
 81 silly idealTree +-- pump@1.0.1
 81 silly idealTree +-- punycode@1.4.1
 81 silly idealTree +-- q@1.4.1
@@ -2165,16 +2302,31 @@
 81 silly idealTree +-- repeating@2.0.1
 81 silly idealTree +-- request-progress@0.3.1
 81 silly idealTree +-- request-replay@0.2.0
-81 silly idealTree +-- request@2.53.0
+81 silly idealTree +-- request@2.72.0
+81 silly idealTree | +-- assert-plus@0.2.0
+81 silly idealTree | +-- async@1.5.2
+81 silly idealTree | +-- aws-sign2@0.6.0
+81 silly idealTree | +-- bl@1.1.2
 81 silly idealTree | +-- boom@2.10.1
-81 silly idealTree | +-- caseless@0.9.0
+81 silly idealTree | +-- caseless@0.11.0
+81 silly idealTree | +-- combined-stream@1.0.5
 81 silly idealTree | +-- cryptiles@2.0.5
-81 silly idealTree | +-- hawk@2.3.1
+81 silly idealTree | +-- delayed-stream@1.0.0
+81 silly idealTree | +-- forever-agent@0.6.1
+81 silly idealTree | +-- form-data@1.0.0-rc4
+81 silly idealTree | +-- hawk@3.1.3
 81 silly idealTree | +-- hoek@2.16.3
-81 silly idealTree | +-- mime-types@2.0.14
-81 silly idealTree | +-- oauth-sign@0.6.0
+81 silly idealTree | +-- http-signature@1.1.1
+81 silly idealTree | +-- isarray@1.0.0
+81 silly idealTree | +-- mime-types@2.1.10
+81 silly idealTree | +-- oauth-sign@0.8.1
+81 silly idealTree | +-- qs@6.1.0
+81 silly idealTree | +-- readable-stream@2.0.6
 81 silly idealTree | `-- sntp@1.0.9
+81 silly idealTree +-- require_optional@1.0.0
+81 silly idealTree | `-- semver@5.1.0
 81 silly idealTree +-- require-directory@2.1.1
+81 silly idealTree +-- resolve-from@2.0.0
 81 silly idealTree +-- response-time@2.3.1
 81 silly idealTree | `-- depd@1.0.1
 81 silly idealTree +-- retry@0.6.1
@@ -2208,6 +2360,9 @@
 81 silly idealTree +-- spdx-license-ids@1.2.1
 81 silly idealTree +-- split@0.3.3
 81 silly idealTree +-- sprintf-js@1.0.3
+81 silly idealTree +-- sshpk@1.8.3
+81 silly idealTree | +-- asn1@0.2.3
+81 silly idealTree | `-- assert-plus@1.0.0
 81 silly idealTree +-- stable@0.1.5
 81 silly idealTree +-- statuses@1.2.1
 81 silly idealTree +-- stream-browserify@1.0.0
@@ -2244,6 +2399,7 @@
 81 silly idealTree +-- trim-newlines@1.0.0
 81 silly idealTree +-- tty-browserify@0.0.0
 81 silly idealTree +-- tunnel-agent@0.4.2
+81 silly idealTree +-- tweetnacl@0.13.3
 81 silly idealTree +-- type-check@0.3.2
 81 silly idealTree +-- type-is@1.6.12
 81 silly idealTree | +-- mime-db@1.22.0
@@ -2271,6 +2427,7 @@
 81 silly idealTree +-- uuid@2.0.2
 81 silly idealTree +-- validate-npm-package-license@3.0.1
 81 silly idealTree +-- vary@1.0.1
+81 silly idealTree +-- verror@1.3.6
 81 silly idealTree +-- vhost@3.0.2
 81 silly idealTree +-- vm-browserify@0.0.4
 81 silly idealTree +-- void-elements@2.0.1
@@ -2303,6 +2460,7 @@
 81 silly idealTree +-- xmldom@0.1.22
 81 silly idealTree +-- xmlhttprequest-ssl@1.5.1
 81 silly idealTree +-- xtend@4.0.1
+81 silly idealTree +-- yallist@2.0.0
 81 silly idealTree +-- yargs@3.10.0
 81 silly idealTree | `-- camelcase@1.2.1
 81 silly idealTree +-- yauzl@2.4.1
@@ -2313,27 +2471,27 @@
 83 silly install generateActionsToTake
 84 silly generateActionsToTake Finishing
 85 silly diffTrees action count 4
-86 silly diffTrees update angular-cookies@1.5.5
-87 silly diffTrees update angular-google-maps-geocoder@0.0.2
+86 silly diffTrees add google-maps@3.2.1
+87 silly diffTrees update angular-cookies@1.5.5
 88 silly diffTrees update angular-storage@0.0.15
 89 silly diffTrees update heatmap.js@2.0.2
 90 silly decomposeActions action count 32
-91 silly decomposeActions fetch angular-cookies@1.5.5
-92 silly decomposeActions extract angular-cookies@1.5.5
-93 silly decomposeActions test angular-cookies@1.5.5
-94 silly decomposeActions preinstall angular-cookies@1.5.5
-95 silly decomposeActions build angular-cookies@1.5.5
-96 silly decomposeActions install angular-cookies@1.5.5
-97 silly decomposeActions postinstall angular-cookies@1.5.5
-98 silly decomposeActions finalize angular-cookies@1.5.5
-99 silly decomposeActions fetch angular-google-maps-geocoder@0.0.2
-100 silly decomposeActions extract angular-google-maps-geocoder@0.0.2
-101 silly decomposeActions test angular-google-maps-geocoder@0.0.2
-102 silly decomposeActions preinstall angular-google-maps-geocoder@0.0.2
-103 silly decomposeActions build angular-google-maps-geocoder@0.0.2
-104 silly decomposeActions install angular-google-maps-geocoder@0.0.2
-105 silly decomposeActions postinstall angular-google-maps-geocoder@0.0.2
-106 silly decomposeActions finalize angular-google-maps-geocoder@0.0.2
+91 silly decomposeActions fetch google-maps@3.2.1
+92 silly decomposeActions extract google-maps@3.2.1
+93 silly decomposeActions test google-maps@3.2.1
+94 silly decomposeActions preinstall google-maps@3.2.1
+95 silly decomposeActions build google-maps@3.2.1
+96 silly decomposeActions install google-maps@3.2.1
+97 silly decomposeActions postinstall google-maps@3.2.1
+98 silly decomposeActions finalize google-maps@3.2.1
+99 silly decomposeActions fetch angular-cookies@1.5.5
+100 silly decomposeActions extract angular-cookies@1.5.5
+101 silly decomposeActions test angular-cookies@1.5.5
+102 silly decomposeActions preinstall angular-cookies@1.5.5
+103 silly decomposeActions build angular-cookies@1.5.5
+104 silly decomposeActions install angular-cookies@1.5.5
+105 silly decomposeActions postinstall angular-cookies@1.5.5
+106 silly decomposeActions finalize angular-cookies@1.5.5
 107 silly decomposeActions fetch angular-storage@0.0.15
 108 silly decomposeActions extract angular-storage@0.0.15
 109 silly decomposeActions test angular-storage@0.0.15
@@ -2357,34 +2515,34 @@
 127 verbose correctMkdir C:\Users\c5236199\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
 128 verbose lock using C:\Users\c5236199\AppData\Roaming\npm-cache\_locks\staging-8d0a1ea8d5221e83.lock for C:\Users\c5236199\Documents\GitHub\app\node_modules\.staging
 129 silly doParallel extract 4
-130 silly extract angular-cookies@1.5.5
-131 silly extract angular-google-maps-geocoder@0.0.2
+130 silly extract google-maps@3.2.1
+131 silly extract angular-cookies@1.5.5
 132 silly extract angular-storage@0.0.15
 133 silly extract heatmap.js@2.0.2
-134 verbose unbuild node_modules\.staging\angular-storage-819b43da
+134 verbose unbuild node_modules\.staging\google-maps-9658358f
 135 verbose unbuild node_modules\.staging\angular-cookies-2d0134a6
-136 silly gentlyRm C:\Users\c5236199\Documents\GitHub\app\node_modules\.staging\angular-storage-819b43da is being purged from base C:\Users\c5236199\Documents\GitHub\app
-137 verbose gentlyRm don't care about contents; nuking C:\Users\c5236199\Documents\GitHub\app\node_modules\.staging\angular-storage-819b43da
-138 silly gentlyRm C:\Users\c5236199\Documents\GitHub\app\node_modules\.staging\angular-cookies-2d0134a6 is being purged from base C:\Users\c5236199\Documents\GitHub\app
-139 verbose gentlyRm don't care about contents; nuking C:\Users\c5236199\Documents\GitHub\app\node_modules\.staging\angular-cookies-2d0134a6
-140 verbose tar unpack C:\Users\c5236199\AppData\Roaming\npm-cache\angular-storage\0.0.15\package.tgz
-141 verbose tar unpacking to C:\Users\c5236199\Documents\GitHub\app\node_modules\.staging\angular-storage-819b43da
-142 silly gentlyRm C:\Users\c5236199\Documents\GitHub\app\node_modules\.staging\angular-storage-819b43da is being purged
-143 verbose gentlyRm don't care about contents; nuking C:\Users\c5236199\Documents\GitHub\app\node_modules\.staging\angular-storage-819b43da
-144 verbose unbuild node_modules\.staging\angular-google-maps-geocoder-30874fa8
-145 verbose tar unpack C:\Users\c5236199\AppData\Roaming\npm-cache\angular-cookies\1.5.5\package.tgz
-146 verbose tar unpacking to C:\Users\c5236199\Documents\GitHub\app\node_modules\.staging\angular-cookies-2d0134a6
-147 silly gentlyRm C:\Users\c5236199\Documents\GitHub\app\node_modules\.staging\angular-cookies-2d0134a6 is being purged
-148 verbose gentlyRm don't care about contents; nuking C:\Users\c5236199\Documents\GitHub\app\node_modules\.staging\angular-cookies-2d0134a6
-149 silly gunzTarPerm modes [ '777', '666' ]
-150 silly gunzTarPerm modes [ '777', '666' ]
-151 verbose unbuild node_modules\.staging\heatmap.js-d6c7d67e
-152 silly gentlyRm C:\Users\c5236199\Documents\GitHub\app\node_modules\.staging\angular-google-maps-geocoder-30874fa8 is being purged from base C:\Users\c5236199\Documents\GitHub\app
-153 verbose gentlyRm don't care about contents; nuking C:\Users\c5236199\Documents\GitHub\app\node_modules\.staging\angular-google-maps-geocoder-30874fa8
-154 verbose tar unpack C:\Users\c5236199\AppData\Roaming\npm-cache\angular-google-maps-geocoder\0.0.2\package.tgz
-155 verbose tar unpacking to C:\Users\c5236199\Documents\GitHub\app\node_modules\.staging\angular-google-maps-geocoder-30874fa8
-156 silly gentlyRm C:\Users\c5236199\Documents\GitHub\app\node_modules\.staging\angular-google-maps-geocoder-30874fa8 is being purged
-157 verbose gentlyRm don't care about contents; nuking C:\Users\c5236199\Documents\GitHub\app\node_modules\.staging\angular-google-maps-geocoder-30874fa8
+136 verbose unbuild node_modules\.staging\angular-storage-819b43da
+137 silly gentlyRm C:\Users\c5236199\Documents\GitHub\app\node_modules\.staging\google-maps-9658358f is being purged from base C:\Users\c5236199\Documents\GitHub\app
+138 verbose gentlyRm don't care about contents; nuking C:\Users\c5236199\Documents\GitHub\app\node_modules\.staging\google-maps-9658358f
+139 silly gentlyRm C:\Users\c5236199\Documents\GitHub\app\node_modules\.staging\angular-cookies-2d0134a6 is being purged from base C:\Users\c5236199\Documents\GitHub\app
+140 verbose gentlyRm don't care about contents; nuking C:\Users\c5236199\Documents\GitHub\app\node_modules\.staging\angular-cookies-2d0134a6
+141 verbose unbuild node_modules\.staging\heatmap.js-d6c7d67e
+142 verbose tar unpack C:\Users\c5236199\AppData\Roaming\npm-cache\google-maps\3.2.1\package.tgz
+143 verbose tar unpacking to C:\Users\c5236199\Documents\GitHub\app\node_modules\.staging\google-maps-9658358f
+144 silly gentlyRm C:\Users\c5236199\Documents\GitHub\app\node_modules\.staging\google-maps-9658358f is being purged
+145 verbose gentlyRm don't care about contents; nuking C:\Users\c5236199\Documents\GitHub\app\node_modules\.staging\google-maps-9658358f
+146 silly gentlyRm C:\Users\c5236199\Documents\GitHub\app\node_modules\.staging\angular-storage-819b43da is being purged from base C:\Users\c5236199\Documents\GitHub\app
+147 verbose gentlyRm don't care about contents; nuking C:\Users\c5236199\Documents\GitHub\app\node_modules\.staging\angular-storage-819b43da
+148 verbose tar unpack C:\Users\c5236199\AppData\Roaming\npm-cache\angular-cookies\1.5.5\package.tgz
+149 verbose tar unpacking to C:\Users\c5236199\Documents\GitHub\app\node_modules\.staging\angular-cookies-2d0134a6
+150 silly gentlyRm C:\Users\c5236199\Documents\GitHub\app\node_modules\.staging\angular-cookies-2d0134a6 is being purged
+151 verbose gentlyRm don't care about contents; nuking C:\Users\c5236199\Documents\GitHub\app\node_modules\.staging\angular-cookies-2d0134a6
+152 silly gunzTarPerm modes [ '777', '666' ]
+153 verbose tar unpack C:\Users\c5236199\AppData\Roaming\npm-cache\angular-storage\0.0.15\package.tgz
+154 verbose tar unpacking to C:\Users\c5236199\Documents\GitHub\app\node_modules\.staging\angular-storage-819b43da
+155 silly gentlyRm C:\Users\c5236199\Documents\GitHub\app\node_modules\.staging\angular-storage-819b43da is being purged
+156 verbose gentlyRm don't care about contents; nuking C:\Users\c5236199\Documents\GitHub\app\node_modules\.staging\angular-storage-819b43da
+157 silly gunzTarPerm modes [ '777', '666' ]
 158 silly gentlyRm C:\Users\c5236199\Documents\GitHub\app\node_modules\.staging\heatmap.js-d6c7d67e is being purged from base C:\Users\c5236199\Documents\GitHub\app
 159 verbose gentlyRm don't care about contents; nuking C:\Users\c5236199\Documents\GitHub\app\node_modules\.staging\heatmap.js-d6c7d67e
 160 silly gunzTarPerm modes [ '777', '666' ]
@@ -2394,25 +2552,25 @@
 164 verbose gentlyRm don't care about contents; nuking C:\Users\c5236199\Documents\GitHub\app\node_modules\.staging\heatmap.js-d6c7d67e
 165 silly gunzTarPerm modes [ '777', '666' ]
 166 silly gunzTarPerm extractEntry package.json
-167 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+167 silly gunzTarPerm modified mode [ 'package.json', 509, 511 ]
 168 silly gunzTarPerm extractEntry package.json
 169 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
 170 silly gunzTarPerm extractEntry package.json
 171 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
-172 silly gunzTarPerm extractEntry .npmignore
-173 silly gunzTarPerm modified mode [ '.npmignore', 493, 511 ]
-174 silly gunzTarPerm extractEntry README.md
-175 silly gunzTarPerm modified mode [ 'README.md', 493, 511 ]
+172 silly gunzTarPerm extractEntry package.json
+173 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+174 silly gunzTarPerm extractEntry .npmignore
+175 silly gunzTarPerm modified mode [ '.npmignore', 509, 511 ]
 176 silly gunzTarPerm extractEntry README.md
-177 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
-178 silly gunzTarPerm extractEntry angular-cookies.js
-179 silly gunzTarPerm modified mode [ 'angular-cookies.js', 420, 438 ]
-180 silly gunzTarPerm extractEntry package.json
-181 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+177 silly gunzTarPerm modified mode [ 'README.md', 436, 438 ]
+178 silly gunzTarPerm extractEntry README.md
+179 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+180 silly gunzTarPerm extractEntry angular-cookies.js
+181 silly gunzTarPerm modified mode [ 'angular-cookies.js', 420, 438 ]
 182 silly gunzTarPerm extractEntry .npmignore
-183 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+183 silly gunzTarPerm modified mode [ '.npmignore', 493, 511 ]
 184 silly gunzTarPerm extractEntry README.md
-185 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+185 silly gunzTarPerm modified mode [ 'README.md', 493, 511 ]
 186 silly gunzTarPerm extractEntry README.md
 187 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
 188 silly gunzTarPerm extractEntry LICENSE
@@ -2425,149 +2583,216 @@
 195 silly gunzTarPerm modified mode [ 'angular-cookies.min.js.map', 420, 438 ]
 196 silly gunzTarPerm extractEntry bower.json
 197 silly gunzTarPerm modified mode [ 'bower.json', 420, 438 ]
-198 silly gunzTarPerm extractEntry gulpfile.js
-199 silly gunzTarPerm modified mode [ 'gulpfile.js', 420, 438 ]
-200 silly gunzTarPerm extractEntry index.js
-201 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
-202 silly gunzTarPerm extractEntry LICENSE
-203 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
-204 silly gunzTarPerm extractEntry dist/angular-google-maps-geocoder.min.js
-205 silly gunzTarPerm modified mode [ 'dist/angular-google-maps-geocoder.min.js', 420, 438 ]
+198 silly gunzTarPerm extractEntry LICENSE
+199 silly gunzTarPerm modified mode [ 'LICENSE', 436, 438 ]
+200 silly gunzTarPerm extractEntry bower.json
+201 silly gunzTarPerm modified mode [ 'bower.json', 436, 438 ]
+202 silly gunzTarPerm extractEntry gulpfile.js
+203 silly gunzTarPerm modified mode [ 'gulpfile.js', 420, 438 ]
+204 silly gunzTarPerm extractEntry index.js
+205 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
 206 silly gunzTarPerm extractEntry heatmap.js
 207 silly gunzTarPerm modified mode [ 'heatmap.js', 420, 438 ]
 208 silly gunzTarPerm extractEntry heatmap.min.js
 209 silly gunzTarPerm modified mode [ 'heatmap.min.js', 420, 438 ]
-210 silly gunzTarPerm extractEntry karma-dist-concatenated.conf.js
-211 silly gunzTarPerm modified mode [ 'karma-dist-concatenated.conf.js', 420, 438 ]
-212 silly gunzTarPerm extractEntry karma-dist-minified.conf.js
-213 silly gunzTarPerm modified mode [ 'karma-dist-minified.conf.js', 420, 438 ]
-214 silly gunzTarPerm extractEntry src/angular-google-maps-geocoder.js
-215 silly gunzTarPerm modified mode [ 'src/angular-google-maps-geocoder.js', 420, 438 ]
-216 silly gunzTarPerm extractEntry docs/assets/css/commons.css
-217 silly gunzTarPerm modified mode [ 'docs/assets/css/commons.css', 420, 438 ]
-218 silly gunzTarPerm extractEntry docs/assets/css/docs.css
-219 silly gunzTarPerm modified mode [ 'docs/assets/css/docs.css', 420, 438 ]
-220 silly gunzTarPerm extractEntry karma-src-all.conf.js
-221 silly gunzTarPerm modified mode [ 'karma-src-all.conf.js', 420, 438 ]
-222 silly gunzTarPerm extractEntry docs/assets/css/prism.css
-223 silly gunzTarPerm modified mode [ 'docs/assets/css/prism.css', 420, 438 ]
-224 silly gunzTarPerm extractEntry docs/assets/js/prism.js
-225 silly gunzTarPerm modified mode [ 'docs/assets/js/prism.js', 420, 438 ]
-226 silly gunzTarPerm extractEntry examples/googlemaps-heatmap/index.html
-227 silly gunzTarPerm modified mode [ 'examples/googlemaps-heatmap/index.html', 420, 438 ]
-228 silly gunzTarPerm extractEntry examples/heatmap-legend/index.html
-229 silly gunzTarPerm modified mode [ 'examples/heatmap-legend/index.html', 420, 438 ]
-230 silly gunzTarPerm extractEntry karma-src.conf.js
-231 silly gunzTarPerm modified mode [ 'karma-src.conf.js', 420, 438 ]
-232 silly gunzTarPerm extractEntry bower.json
-233 silly gunzTarPerm modified mode [ 'bower.json', 493, 511 ]
-234 silly gunzTarPerm extractEntry examples/leaflet-heatmap/index.html
-235 silly gunzTarPerm modified mode [ 'examples/leaflet-heatmap/index.html', 420, 438 ]
-236 silly gunzTarPerm extractEntry examples/mousemove-heatmap/index.html
-237 silly gunzTarPerm modified mode [ 'examples/mousemove-heatmap/index.html', 420, 438 ]
-238 silly gunzTarPerm extractEntry .editorconfig
-239 silly gunzTarPerm modified mode [ '.editorconfig', 420, 438 ]
-240 silly gunzTarPerm extractEntry dist/angular-storage.js
-241 silly gunzTarPerm modified mode [ 'dist/angular-storage.js', 493, 511 ]
-242 silly gunzTarPerm extractEntry dist/angular-storage.min.js
-243 silly gunzTarPerm modified mode [ 'dist/angular-storage.min.js', 493, 511 ]
-244 silly gunzTarPerm extractEntry .bowerrc
-245 silly gunzTarPerm modified mode [ '.bowerrc', 493, 511 ]
-246 silly gunzTarPerm extractEntry examples/raindrops/index.html
-247 silly gunzTarPerm modified mode [ 'examples/raindrops/index.html', 420, 438 ]
-248 silly gunzTarPerm extractEntry examples/svg-area-heatmap/austria.svg
-249 silly gunzTarPerm modified mode [ 'examples/svg-area-heatmap/austria.svg', 420, 438 ]
-250 silly gunzTarPerm extractEntry .jshintrc
-251 silly gunzTarPerm modified mode [ '.jshintrc', 420, 438 ]
-252 silly gunzTarPerm extractEntry .travis.yml
-253 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
-254 silly gunzTarPerm extractEntry examples/svg-area-heatmap/index.html
-255 silly gunzTarPerm modified mode [ 'examples/svg-area-heatmap/index.html', 420, 438 ]
-256 silly gunzTarPerm extractEntry .yo-rc.json
-257 silly gunzTarPerm modified mode [ '.yo-rc.json', 420, 438 ]
-258 silly gunzTarPerm extractEntry History.md
-259 silly gunzTarPerm modified mode [ 'History.md', 420, 438 ]
-260 silly gunzTarPerm extractEntry examples/unblurred-datapoints/index.html
-261 silly gunzTarPerm modified mode [ 'examples/unblurred-datapoints/index.html', 420, 438 ]
-262 silly gunzTarPerm extractEntry LICENSE.txt
-263 silly gunzTarPerm modified mode [ 'LICENSE.txt', 493, 511 ]
-264 silly gunzTarPerm extractEntry src/angularStorage/angularStorage.js
-265 silly gunzTarPerm modified mode [ 'src/angularStorage/angularStorage.js', 493, 511 ]
-266 silly gentlyRm C:\Users\c5236199\Documents\GitHub\app\node_modules\.staging\angular-google-maps-geocoder-30874fa8\node_modules is being purged
-267 verbose gentlyRm don't care about contents; nuking C:\Users\c5236199\Documents\GitHub\app\node_modules\.staging\angular-google-maps-geocoder-30874fa8\node_modules
-268 silly gunzTarPerm extractEntry src/angularStorage/angularStorage.prefix
-269 silly gunzTarPerm modified mode [ 'src/angularStorage/angularStorage.prefix', 493, 511 ]
-270 silly gunzTarPerm extractEntry src/angularStorage/angularStorage.suffix
-271 silly gunzTarPerm modified mode [ 'src/angularStorage/angularStorage.suffix', 493, 511 ]
-272 silly gentlyRm C:\Users\c5236199\Documents\GitHub\app\node_modules\.staging\angular-cookies-2d0134a6\node_modules is being purged
-273 verbose gentlyRm don't care about contents; nuking C:\Users\c5236199\Documents\GitHub\app\node_modules\.staging\angular-cookies-2d0134a6\node_modules
-274 silly gunzTarPerm extractEntry src/angularStorage/services/cookieStorage.js
-275 silly gunzTarPerm modified mode [ 'src/angularStorage/services/cookieStorage.js', 420, 438 ]
-276 silly gunzTarPerm extractEntry src/angularStorage/services/internalStore.js
-277 silly gunzTarPerm modified mode [ 'src/angularStorage/services/internalStore.js', 420, 438 ]
-278 silly gunzTarPerm extractEntry src/angularStorage/services/localStorage.js
-279 silly gunzTarPerm modified mode [ 'src/angularStorage/services/localStorage.js', 420, 438 ]
-280 silly gunzTarPerm extractEntry src/angularStorage/services/sessionStorage.js
-281 silly gunzTarPerm modified mode [ 'src/angularStorage/services/sessionStorage.js', 420, 438 ]
-282 silly gunzTarPerm extractEntry src/angularStorage/services/store.js.js
-283 silly gunzTarPerm modified mode [ 'src/angularStorage/services/store.js.js', 420, 438 ]
-284 silly gunzTarPerm extractEntry test/unit/angularStorage/angularStorageSpec.js
-285 silly gunzTarPerm modified mode [ 'test/unit/angularStorage/angularStorageSpec.js', 493, 511 ]
-286 silly gunzTarPerm extractEntry test/unit/angularStorage/services/storeSpec.js
-287 silly gunzTarPerm modified mode [ 'test/unit/angularStorage/services/storeSpec.js', 420, 438 ]
-288 silly gentlyRm C:\Users\c5236199\Documents\GitHub\app\node_modules\.staging\heatmap.js-d6c7d67e\node_modules is being purged
-289 verbose gentlyRm don't care about contents; nuking C:\Users\c5236199\Documents\GitHub\app\node_modules\.staging\heatmap.js-d6c7d67e\node_modules
-290 silly gentlyRm C:\Users\c5236199\Documents\GitHub\app\node_modules\.staging\angular-storage-819b43da\node_modules is being purged
-291 verbose gentlyRm don't care about contents; nuking C:\Users\c5236199\Documents\GitHub\app\node_modules\.staging\angular-storage-819b43da\node_modules
-292 silly doParallel preinstall 4
-293 silly preinstall angular-cookies@1.5.5 C:\Users\c5236199\Documents\GitHub\app\node_modules\.staging\angular-cookies-2d0134a6
-294 info lifecycle angular-cookies@1.5.5~preinstall: angular-cookies@1.5.5
-295 silly preinstall angular-google-maps-geocoder@0.0.2 C:\Users\c5236199\Documents\GitHub\app\node_modules\.staging\angular-google-maps-geocoder-30874fa8
-296 info lifecycle angular-google-maps-geocoder@0.0.2~preinstall: angular-google-maps-geocoder@0.0.2
-297 silly preinstall angular-storage@0.0.15 C:\Users\c5236199\Documents\GitHub\app\node_modules\.staging\angular-storage-819b43da
-298 info lifecycle angular-storage@0.0.15~preinstall: angular-storage@0.0.15
-299 silly preinstall heatmap.js@2.0.2 C:\Users\c5236199\Documents\GitHub\app\node_modules\.staging\heatmap.js-d6c7d67e
-300 info lifecycle heatmap.js@2.0.2~preinstall: heatmap.js@2.0.2
-301 silly lifecycle angular-cookies@1.5.5~preinstall: no script for preinstall, continuing
-302 silly lifecycle angular-google-maps-geocoder@0.0.2~preinstall: no script for preinstall, continuing
-303 silly lifecycle angular-storage@0.0.15~preinstall: no script for preinstall, continuing
-304 silly lifecycle heatmap.js@2.0.2~preinstall: no script for preinstall, continuing
-305 silly doReverseSerial remove 0
-306 silly doSerial move 0
-307 silly doSerial finalize 4
-308 silly finalize C:\Users\c5236199\Documents\GitHub\app\node_modules\angular-cookies
-309 silly finalize C:\Users\c5236199\Documents\GitHub\app\node_modules\angular-google-maps-geocoder
-310 verbose unlock done using C:\Users\c5236199\AppData\Roaming\npm-cache\_locks\staging-8d0a1ea8d5221e83.lock for C:\Users\c5236199\Documents\GitHub\app\node_modules\.staging
-311 silly rollbackFailedOptional Starting
-312 silly rollbackFailedOptional Finishing
-313 silly runTopLevelLifecycles Starting
-314 silly runTopLevelLifecycles Finishing
-315 silly install printInstalled
-316 warn optional Skipping failed optional dependency /chokidar/fsevents:
-317 warn notsup Not compatible with your operating system or architecture: fsevents@1.0.12
-318 verbose stack Error: EPERM: operation not permitted, rename 'C:\Users\c5236199\Documents\GitHub\app\node_modules\angular-google-maps-geocoder' -> 'C:\Users\c5236199\Documents\GitHub\app\node_modules\.angular-google-maps-geocoder.DELETE'
-318 verbose stack     at moveAway (C:\Program Files (x86)\Nodist\bin\node_modules\npm\lib\install\action\finalize.js:38:5)
-318 verbose stack     at destStatted (C:\Program Files (x86)\Nodist\bin\node_modules\npm\lib\install\action\finalize.js:27:7)
-318 verbose stack     at FSReqWrap.oncomplete (fs.js:82:15)
-318 verbose stack
-318 verbose stack Error: EPERM: operation not permitted, rename 'C:\Users\c5236199\Documents\GitHub\app\node_modules\angular-google-maps-geocoder' -> 'C:\Users\c5236199\Documents\GitHub\app\node_modules\.angular-google-maps-geocoder.DELETE'
-318 verbose stack     at Error (native)
-319 verbose cwd C:\Users\c5236199\Documents\GitHub\app
-320 error Windows_NT 6.3.9600
-321 error argv "C:\\Program Files (x86)\\Nodist\\v\\nodev5.9.1\\node.exe" "C:\\Program Files (x86)\\Nodist\\bin\\node_modules\\npm\\bin\\npm-cli.js" "install" "angular-storage"
-322 error node v5.9.1
-323 error npm  v3.8.7
-324 error path C:\Users\c5236199\Documents\GitHub\app\node_modules\angular-google-maps-geocoder
-325 error code EPERM
-326 error errno -4048
-327 error syscall rename
-328 error Error: EPERM: operation not permitted, rename 'C:\Users\c5236199\Documents\GitHub\app\node_modules\angular-google-maps-geocoder' -> 'C:\Users\c5236199\Documents\GitHub\app\node_modules\.angular-google-maps-geocoder.DELETE'
-328 error     at moveAway (C:\Program Files (x86)\Nodist\bin\node_modules\npm\lib\install\action\finalize.js:38:5)
-328 error     at destStatted (C:\Program Files (x86)\Nodist\bin\node_modules\npm\lib\install\action\finalize.js:27:7)
-328 error     at FSReqWrap.oncomplete (fs.js:82:15)
-328 error
-328 error Error: EPERM: operation not permitted, rename 'C:\Users\c5236199\Documents\GitHub\app\node_modules\angular-google-maps-geocoder' -> 'C:\Users\c5236199\Documents\GitHub\app\node_modules\.angular-google-maps-geocoder.DELETE'
-328 error     at Error (native)
-328 error  { [Error: EPERM: operation not permitted, rename 'C:\Users\c5236199\Documents\GitHub\app\node_modules\angular-google-maps-geocoder' -> 'C:\Users\c5236199\Documents\GitHub\app\node_modules\.angular-google-maps-geocoder.DELETE'] parent: 'spaceapps' }
-329 error Please try running this command again as root/Administrator.
-330 verbose exit [ -4048, true ]
+210 silly gunzTarPerm extractEntry lib/Google.js
+211 silly gunzTarPerm modified mode [ 'lib/Google.js', 436, 438 ]
+212 silly gunzTarPerm extractEntry lib/Google.min.js
+213 silly gunzTarPerm modified mode [ 'lib/Google.min.js', 436, 438 ]
+214 silly gunzTarPerm extractEntry karma-dist-concatenated.conf.js
+215 silly gunzTarPerm modified mode [ 'karma-dist-concatenated.conf.js', 420, 438 ]
+216 silly gunzTarPerm extractEntry karma-dist-minified.conf.js
+217 silly gunzTarPerm modified mode [ 'karma-dist-minified.conf.js', 420, 438 ]
+218 silly gunzTarPerm extractEntry docs/assets/css/commons.css
+219 silly gunzTarPerm modified mode [ 'docs/assets/css/commons.css', 420, 438 ]
+220 silly gunzTarPerm extractEntry docs/assets/css/docs.css
+221 silly gunzTarPerm modified mode [ 'docs/assets/css/docs.css', 420, 438 ]
+222 silly gunzTarPerm extractEntry .travis.yml
+223 silly gunzTarPerm modified mode [ '.travis.yml', 436, 438 ]
+224 silly gunzTarPerm extractEntry karma-src-all.conf.js
+225 silly gunzTarPerm modified mode [ 'karma-src-all.conf.js', 420, 438 ]
+226 silly gunzTarPerm extractEntry docs/assets/css/prism.css
+227 silly gunzTarPerm modified mode [ 'docs/assets/css/prism.css', 420, 438 ]
+228 silly gunzTarPerm extractEntry docs/assets/js/prism.js
+229 silly gunzTarPerm modified mode [ 'docs/assets/js/prism.js', 420, 438 ]
+230 silly gunzTarPerm extractEntry examples/googlemaps-heatmap/index.html
+231 silly gunzTarPerm modified mode [ 'examples/googlemaps-heatmap/index.html', 420, 438 ]
+232 silly gunzTarPerm extractEntry examples/heatmap-legend/index.html
+233 silly gunzTarPerm modified mode [ 'examples/heatmap-legend/index.html', 420, 438 ]
+234 silly gunzTarPerm extractEntry test/GoogleMaps.js
+235 silly gunzTarPerm modified mode [ 'test/GoogleMaps.js', 436, 438 ]
+236 silly gunzTarPerm extractEntry test/index.html
+237 silly gunzTarPerm modified mode [ 'test/index.html', 436, 438 ]
+238 silly gunzTarPerm extractEntry karma-src.conf.js
+239 silly gunzTarPerm modified mode [ 'karma-src.conf.js', 420, 438 ]
+240 silly gunzTarPerm extractEntry bower.json
+241 silly gunzTarPerm modified mode [ 'bower.json', 493, 511 ]
+242 silly gunzTarPerm extractEntry .editorconfig
+243 silly gunzTarPerm modified mode [ '.editorconfig', 420, 438 ]
+244 silly gunzTarPerm extractEntry dist/angular-storage.js
+245 silly gunzTarPerm modified mode [ 'dist/angular-storage.js', 493, 511 ]
+246 silly gunzTarPerm extractEntry examples/leaflet-heatmap/index.html
+247 silly gunzTarPerm modified mode [ 'examples/leaflet-heatmap/index.html', 420, 438 ]
+248 silly gunzTarPerm extractEntry examples/mousemove-heatmap/index.html
+249 silly gunzTarPerm modified mode [ 'examples/mousemove-heatmap/index.html', 420, 438 ]
+250 silly gunzTarPerm extractEntry dist/angular-storage.min.js
+251 silly gunzTarPerm modified mode [ 'dist/angular-storage.min.js', 493, 511 ]
+252 silly gunzTarPerm extractEntry .bowerrc
+253 silly gunzTarPerm modified mode [ '.bowerrc', 493, 511 ]
+254 silly gunzTarPerm extractEntry examples/raindrops/index.html
+255 silly gunzTarPerm modified mode [ 'examples/raindrops/index.html', 420, 438 ]
+256 silly gunzTarPerm extractEntry examples/svg-area-heatmap/austria.svg
+257 silly gunzTarPerm modified mode [ 'examples/svg-area-heatmap/austria.svg', 420, 438 ]
+258 silly gunzTarPerm extractEntry .jshintrc
+259 silly gunzTarPerm modified mode [ '.jshintrc', 420, 438 ]
+260 silly gunzTarPerm extractEntry .travis.yml
+261 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+262 silly gunzTarPerm extractEntry .yo-rc.json
+263 silly gunzTarPerm modified mode [ '.yo-rc.json', 420, 438 ]
+264 silly gunzTarPerm extractEntry History.md
+265 silly gunzTarPerm modified mode [ 'History.md', 420, 438 ]
+266 silly gunzTarPerm extractEntry examples/svg-area-heatmap/index.html
+267 silly gunzTarPerm modified mode [ 'examples/svg-area-heatmap/index.html', 420, 438 ]
+268 silly gunzTarPerm extractEntry LICENSE.txt
+269 silly gunzTarPerm modified mode [ 'LICENSE.txt', 493, 511 ]
+270 silly gunzTarPerm extractEntry src/angularStorage/angularStorage.js
+271 silly gunzTarPerm modified mode [ 'src/angularStorage/angularStorage.js', 493, 511 ]
+272 silly gunzTarPerm extractEntry examples/unblurred-datapoints/index.html
+273 silly gunzTarPerm modified mode [ 'examples/unblurred-datapoints/index.html', 420, 438 ]
+274 silly gunzTarPerm extractEntry src/angularStorage/angularStorage.prefix
+275 silly gunzTarPerm modified mode [ 'src/angularStorage/angularStorage.prefix', 493, 511 ]
+276 silly gunzTarPerm extractEntry src/angularStorage/angularStorage.suffix
+277 silly gunzTarPerm modified mode [ 'src/angularStorage/angularStorage.suffix', 493, 511 ]
+278 silly gentlyRm C:\Users\c5236199\Documents\GitHub\app\node_modules\.staging\angular-cookies-2d0134a6\node_modules is being purged
+279 verbose gentlyRm don't care about contents; nuking C:\Users\c5236199\Documents\GitHub\app\node_modules\.staging\angular-cookies-2d0134a6\node_modules
+280 silly gunzTarPerm extractEntry src/angularStorage/services/cookieStorage.js
+281 silly gunzTarPerm modified mode [ 'src/angularStorage/services/cookieStorage.js', 420, 438 ]
+282 silly gunzTarPerm extractEntry src/angularStorage/services/internalStore.js
+283 silly gunzTarPerm modified mode [ 'src/angularStorage/services/internalStore.js', 420, 438 ]
+284 silly gunzTarPerm extractEntry src/angularStorage/services/localStorage.js
+285 silly gunzTarPerm modified mode [ 'src/angularStorage/services/localStorage.js', 420, 438 ]
+286 silly gunzTarPerm extractEntry src/angularStorage/services/sessionStorage.js
+287 silly gunzTarPerm modified mode [ 'src/angularStorage/services/sessionStorage.js', 420, 438 ]
+288 silly gunzTarPerm extractEntry src/angularStorage/services/store.js.js
+289 silly gunzTarPerm modified mode [ 'src/angularStorage/services/store.js.js', 420, 438 ]
+290 silly gunzTarPerm extractEntry test/unit/angularStorage/angularStorageSpec.js
+291 silly gunzTarPerm modified mode [ 'test/unit/angularStorage/angularStorageSpec.js', 493, 511 ]
+292 silly gunzTarPerm extractEntry test/unit/angularStorage/services/storeSpec.js
+293 silly gunzTarPerm modified mode [ 'test/unit/angularStorage/services/storeSpec.js', 420, 438 ]
+294 silly gentlyRm C:\Users\c5236199\Documents\GitHub\app\node_modules\.staging\google-maps-9658358f\node_modules is being purged
+295 verbose gentlyRm don't care about contents; nuking C:\Users\c5236199\Documents\GitHub\app\node_modules\.staging\google-maps-9658358f\node_modules
+296 silly gentlyRm C:\Users\c5236199\Documents\GitHub\app\node_modules\.staging\heatmap.js-d6c7d67e\node_modules is being purged
+297 verbose gentlyRm don't care about contents; nuking C:\Users\c5236199\Documents\GitHub\app\node_modules\.staging\heatmap.js-d6c7d67e\node_modules
+298 silly gentlyRm C:\Users\c5236199\Documents\GitHub\app\node_modules\.staging\angular-storage-819b43da\node_modules is being purged
+299 verbose gentlyRm don't care about contents; nuking C:\Users\c5236199\Documents\GitHub\app\node_modules\.staging\angular-storage-819b43da\node_modules
+300 silly doParallel preinstall 4
+301 silly preinstall google-maps@3.2.1 C:\Users\c5236199\Documents\GitHub\app\node_modules\.staging\google-maps-9658358f
+302 info lifecycle google-maps@3.2.1~preinstall: google-maps@3.2.1
+303 silly preinstall angular-cookies@1.5.5 C:\Users\c5236199\Documents\GitHub\app\node_modules\.staging\angular-cookies-2d0134a6
+304 info lifecycle angular-cookies@1.5.5~preinstall: angular-cookies@1.5.5
+305 silly preinstall angular-storage@0.0.15 C:\Users\c5236199\Documents\GitHub\app\node_modules\.staging\angular-storage-819b43da
+306 info lifecycle angular-storage@0.0.15~preinstall: angular-storage@0.0.15
+307 silly preinstall heatmap.js@2.0.2 C:\Users\c5236199\Documents\GitHub\app\node_modules\.staging\heatmap.js-d6c7d67e
+308 info lifecycle heatmap.js@2.0.2~preinstall: heatmap.js@2.0.2
+309 silly lifecycle google-maps@3.2.1~preinstall: no script for preinstall, continuing
+310 silly lifecycle angular-cookies@1.5.5~preinstall: no script for preinstall, continuing
+311 silly lifecycle angular-storage@0.0.15~preinstall: no script for preinstall, continuing
+312 silly lifecycle heatmap.js@2.0.2~preinstall: no script for preinstall, continuing
+313 silly doReverseSerial remove 0
+314 silly doSerial move 0
+315 silly doSerial finalize 4
+316 silly finalize C:\Users\c5236199\Documents\GitHub\app\node_modules\google-maps
+317 silly finalize C:\Users\c5236199\Documents\GitHub\app\node_modules\angular-cookies
+318 silly finalize C:\Users\c5236199\Documents\GitHub\app\node_modules\angular-storage
+319 silly finalize C:\Users\c5236199\Documents\GitHub\app\node_modules\heatmap.js
+320 silly doSerial build 4
+321 silly build google-maps@3.2.1
+322 info linkStuff google-maps@3.2.1
+323 silly linkStuff google-maps@3.2.1 has C:\Users\c5236199\Documents\GitHub\app\node_modules as its parent node_modules
+324 verbose linkBins google-maps@3.2.1
+325 verbose linkMans google-maps@3.2.1
+326 silly build angular-cookies@1.5.5
+327 info linkStuff angular-cookies@1.5.5
+328 silly linkStuff angular-cookies@1.5.5 has C:\Users\c5236199\Documents\GitHub\app\node_modules as its parent node_modules
+329 verbose linkBins angular-cookies@1.5.5
+330 verbose linkMans angular-cookies@1.5.5
+331 silly build angular-storage@0.0.15
+332 info linkStuff angular-storage@0.0.15
+333 silly linkStuff angular-storage@0.0.15 has C:\Users\c5236199\Documents\GitHub\app\node_modules as its parent node_modules
+334 verbose linkBins angular-storage@0.0.15
+335 verbose linkMans angular-storage@0.0.15
+336 silly build heatmap.js@2.0.2
+337 info linkStuff heatmap.js@2.0.2
+338 silly linkStuff heatmap.js@2.0.2 has C:\Users\c5236199\Documents\GitHub\app\node_modules as its parent node_modules
+339 verbose linkBins heatmap.js@2.0.2
+340 verbose linkMans heatmap.js@2.0.2
+341 silly doSerial global-link 0
+342 silly doParallel update-linked 0
+343 silly doSerial install 4
+344 silly install google-maps@3.2.1 C:\Users\c5236199\Documents\GitHub\app\node_modules\.staging\google-maps-9658358f
+345 info lifecycle google-maps@3.2.1~install: google-maps@3.2.1
+346 silly lifecycle google-maps@3.2.1~install: no script for install, continuing
+347 silly install angular-cookies@1.5.5 C:\Users\c5236199\Documents\GitHub\app\node_modules\.staging\angular-cookies-2d0134a6
+348 info lifecycle angular-cookies@1.5.5~install: angular-cookies@1.5.5
+349 silly lifecycle angular-cookies@1.5.5~install: no script for install, continuing
+350 silly install angular-storage@0.0.15 C:\Users\c5236199\Documents\GitHub\app\node_modules\.staging\angular-storage-819b43da
+351 info lifecycle angular-storage@0.0.15~install: angular-storage@0.0.15
+352 silly lifecycle angular-storage@0.0.15~install: no script for install, continuing
+353 silly install heatmap.js@2.0.2 C:\Users\c5236199\Documents\GitHub\app\node_modules\.staging\heatmap.js-d6c7d67e
+354 info lifecycle heatmap.js@2.0.2~install: heatmap.js@2.0.2
+355 silly lifecycle heatmap.js@2.0.2~install: no script for install, continuing
+356 silly doSerial postinstall 4
+357 silly postinstall google-maps@3.2.1 C:\Users\c5236199\Documents\GitHub\app\node_modules\.staging\google-maps-9658358f
+358 info lifecycle google-maps@3.2.1~postinstall: google-maps@3.2.1
+359 silly lifecycle google-maps@3.2.1~postinstall: no script for postinstall, continuing
+360 silly postinstall angular-cookies@1.5.5 C:\Users\c5236199\Documents\GitHub\app\node_modules\.staging\angular-cookies-2d0134a6
+361 info lifecycle angular-cookies@1.5.5~postinstall: angular-cookies@1.5.5
+362 silly lifecycle angular-cookies@1.5.5~postinstall: no script for postinstall, continuing
+363 silly postinstall angular-storage@0.0.15 C:\Users\c5236199\Documents\GitHub\app\node_modules\.staging\angular-storage-819b43da
+364 info lifecycle angular-storage@0.0.15~postinstall: angular-storage@0.0.15
+365 silly lifecycle angular-storage@0.0.15~postinstall: no script for postinstall, continuing
+366 silly postinstall heatmap.js@2.0.2 C:\Users\c5236199\Documents\GitHub\app\node_modules\.staging\heatmap.js-d6c7d67e
+367 info lifecycle heatmap.js@2.0.2~postinstall: heatmap.js@2.0.2
+368 silly lifecycle heatmap.js@2.0.2~postinstall: no script for postinstall, continuing
+369 verbose unlock done using C:\Users\c5236199\AppData\Roaming\npm-cache\_locks\staging-8d0a1ea8d5221e83.lock for C:\Users\c5236199\Documents\GitHub\app\node_modules\.staging
+370 silly executeActions Finishing
+371 silly rollbackFailedOptional Starting
+372 silly rollbackFailedOptional Finishing
+373 silly runTopLevelLifecycles Starting
+374 silly install runTopLevelLifecycles
+375 silly preinstall spaceapps@1.0.0 C:\Users\c5236199\Documents\GitHub\app\spaceapps-4566fa42
+376 info lifecycle spaceapps@1.0.0~preinstall: spaceapps@1.0.0
+377 silly lifecycle spaceapps@1.0.0~preinstall: no script for preinstall, continuing
+378 silly build spaceapps@1.0.0
+379 info linkStuff spaceapps@1.0.0
+380 silly linkStuff spaceapps@1.0.0 has C:\Users\c5236199\Documents\GitHub as its parent node_modules
+381 verbose linkBins spaceapps@1.0.0
+382 verbose linkMans spaceapps@1.0.0
+383 silly install spaceapps@1.0.0 C:\Users\c5236199\Documents\GitHub\app\spaceapps-4566fa42
+384 info lifecycle spaceapps@1.0.0~install: spaceapps@1.0.0
+385 verbose lifecycle spaceapps@1.0.0~install: unsafe-perm in lifecycle true
+386 verbose lifecycle spaceapps@1.0.0~install: PATH: C:\Program Files (x86)\Nodist\bin\node_modules\npm\bin\node-gyp-bin;C:\Users\c5236199\Documents\GitHub\app\node_modules\.bin;C:\Program Files (x86)\Nodist\v\nodev5.9.1;C:\Users\c5236199\AppData\Local\GitHub\PortableGit_25d850739bc178b2eb13c3e2a9faafea2f9143c0\cmd;C:\Users\c5236199\AppData\Local\GitHub\PortableGit_25d850739bc178b2eb13c3e2a9faafea2f9143c0\usr\bin;C:\Users\c5236199\AppData\Local\GitHub\PortableGit_25d850739bc178b2eb13c3e2a9faafea2f9143c0\usr\share\git-tfs;C:\Users\c5236199\AppData\Local\Apps\2.0\Z3MRQDJV.2VY\EECPNZ1O.72D\gith..tion_317444273a93ac29_0003.0000_c74cce3a838f9354;C:\Users\c5236199\AppData\Local\GitHub\lfs-amd64_1.1.0;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Windows\CCM;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files (x86)\Git\cmd;C:\Program Files (x86)\GitExtensions\;C:\Program Files\Java\jre1.8.0_66\bin;C:\Python27\;C:\Python27\Scripts\;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Users\c5236199\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files (x86)\Skype\Phone\;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\apps\FME\;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\Nodist\bin;C:\Users\c5236199\AppData\Roaming\nvm;C:\Program Files\nodejs
+387 verbose lifecycle spaceapps@1.0.0~install: CWD: C:\Users\c5236199\Documents\GitHub\app
+388 silly lifecycle spaceapps@1.0.0~install: Args: [ '/d /s /c', 'node_modules/bower/bin/bower install' ]
+389 silly lifecycle spaceapps@1.0.0~install: Returned: code: 1  signal: null
+390 info lifecycle spaceapps@1.0.0~install: Failed to exec install script
+391 verbose stack RangeError: Maximum call stack size exceeded
+391 verbose stack     at Array.filter (native)
+391 verbose stack     at C:\Program Files (x86)\Nodist\bin\node_modules\npm\lib\install\actions.js:55:37
+391 verbose stack     at Array.forEach (native)
+391 verbose stack     at markAsFailed (C:\Program Files (x86)\Nodist\bin\node_modules\npm\lib\install\actions.js:54:16)
+391 verbose stack     at C:\Program Files (x86)\Nodist\bin\node_modules\npm\lib\install\actions.js:57:7
+391 verbose stack     at Array.forEach (native)
+391 verbose stack     at markAsFailed (C:\Program Files (x86)\Nodist\bin\node_modules\npm\lib\install\actions.js:54:16)
+391 verbose stack     at C:\Program Files (x86)\Nodist\bin\node_modules\npm\lib\install\actions.js:57:7
+391 verbose stack     at Array.forEach (native)
+391 verbose stack     at markAsFailed (C:\Program Files (x86)\Nodist\bin\node_modules\npm\lib\install\actions.js:54:16)
+392 verbose cwd C:\Users\c5236199\Documents\GitHub\app
+393 error Windows_NT 6.3.9600
+394 error argv "C:\\Program Files (x86)\\Nodist\\v\\nodev5.9.1\\node.exe" "C:\\Program Files (x86)\\Nodist\\bin\\node_modules\\npm\\bin\\npm-cli.js" "install"
+395 error node v5.9.1
+396 error npm  v3.8.7
+397 error Maximum call stack size exceeded
+398 error If you need help, you may report this error at:
+398 error     <https://github.com/npm/npm/issues>
+399 verbose exit [ 1, true ]
