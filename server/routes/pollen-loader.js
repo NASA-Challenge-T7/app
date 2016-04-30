@@ -5,10 +5,10 @@ var router = express.Router();
 
 
 
-var loc_lat = process.argv[2] || '51.7546407';
-var loc_long = process.argv[3] || '-1.2510746';
+// var loc_lat = process.argv[2] || '51.7546407';
+// var loc_long = process.argv[3] || '-1.2510746';
 var base_url = 'https://socialpollencount.co.uk/api/forecast?location=';
-var url = base_url+'['+loc_lat+','+loc_long+']';
+// var url = base_url+'['+loc_lat+','+loc_long+']';
 
 var today = new Date().toISOString().substr(0,10);
 
@@ -18,11 +18,13 @@ if ( !String.prototype.contains ) {
     };
 }
 
-console.log('Latitude: ', loc_lat);
-console.log('Longitude: ', loc_long);
+// console.log('Latitude: ', loc_lat);
+// console.log('Longitude: ', loc_long);
 
 router.get('/pollen-loader', function (req, res) {
-    console.log('Requested');
+
+    var url = base_url+'['+req.param('lat')+','+req.param('lon')+']';
+    console.log(url);
     request(
         {
             url: url,

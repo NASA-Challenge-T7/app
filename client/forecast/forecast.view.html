@@ -1,11 +1,22 @@
-<div class="container" ng-controller="ForecastController as model">
+<div class="container" ng-controller="ForecastController as model" style="align-content: center;">
 
 <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main" >
-<div class="well">
+<br>
+<br>
+<div class="well" style="background-color: transparent; color: white">
+<!-- 
   <h2>Today's forecast</h2>
   <h3> Pollen Levels in your area: Moderate</h3>
   <h3> Pollution : 40% </h3>
   <h3> AQI : 45 </h3>
+ -->
+  <h2>Today's forecast</h2>
+  <h3> Location: <b>{{name}}</b></h3>
+  <h3> Weather: <b>{{weather}}</b></h3>
+  <h3> Temperature : <b>{{temperature}}</b> </h3>
+  <h3> Pollen Levels in your area: <b>{{pollen_count}}</b></h3>
+
+
 </div>
  <br>
  <br>

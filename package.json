@@ -42,6 +42,7 @@
     "angular-animate": "^1.5.5",
     "angular-cookies": "^1.5.5",
     "angular-google-maps": "^2.3.2",
+    "angular-google-maps-geocoder": "0.0.2",
     "angular-resource": "^1.5.5",
     "angular-sanitize": "^1.5.5",
     "angular-simple-logger": "^0.1.7",
