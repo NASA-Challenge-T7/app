@@ -28,13 +28,14 @@ router.get('/pollen-loader', function (req, res) {
             url: url,
             json: true
         },
-        function (error, res, body) {
+        function (error, response, body) {
             if (!error && res.statusCode === 200) {
                 body.forecast.forEach(function (item) {
                     if (item.date.contains(today)) {
                         console.log('Pollen level: ', item.pollen_count);
                         // return res.json(item);
                         // return item;
+                        return res.send(item);
                     }
                 });
             }
