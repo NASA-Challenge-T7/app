@@ -18,7 +18,24 @@
     "url": "https://github.com/NASA-Challenge-T7/app/issues"
   },
   "homepage": "https://github.com/NASA-Challenge-T7/app#readme",
-  "devDependencies": {
+  "devDependencies": {},
+  "dependencies": {
+    "bower": "1.7.9",
+    "angular": "^1.5.5",
+    "angular-storage": "^0.0.15",
+    "angular-animate": "^1.5.5",
+    "angular-cookies": "^1.5.5",
+    "angular-google-maps": "^2.3.2",
+    "angular-google-maps-geocoder": "0.0.2",
+    "angular-resource": "^1.5.5",
+    "angular-sanitize": "^1.5.5",
+    "angular-simple-logger": "^0.1.7",
+    "angular-touch": "^1.5.5",
+    "google-maps": "^3.2.1",
+    "jquery": "^2.2.3",
+    "lodash": "^4.11.1",
+    "pollen": "0.0.5",
+    "request": "^2.72.0",
     "data-structures": "^1.4.2",
     "jsonfile": "^2.0.1",
     "mocha": "2.X",
@@ -35,23 +52,5 @@
     "path": "^0.12.7",
     "angular-simple-logger": ">=0.0.1",
     "lodash": "3.X - 4.X"
-  },
-  "dependencies": {
-     "bower": "1.7.9",
-    "angular": "^1.5.5",
-    "angular-storage": "^0.0.15",
-    "angular-animate": "^1.5.5",
-    "angular-cookies": "^1.5.5",
-    "angular-google-maps": "^2.3.2",
-    "angular-google-maps-geocoder": "0.0.2",
-    "angular-resource": "^1.5.5",
-    "angular-sanitize": "^1.5.5",
-    "angular-simple-logger": "^0.1.7",
-    "angular-touch": "^1.5.5",
-    "google-maps": "^3.2.1",
-    "jquery": "^2.2.3",
-    "lodash": "^4.11.1",
-    "pollen": "0.0.5",
-    "request": "^2.72.0"
   }
 }
