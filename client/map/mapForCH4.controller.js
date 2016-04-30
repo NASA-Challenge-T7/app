@@ -10,6 +10,47 @@
 
 		    var inputData = [];
 
+		    var currentLat;
+		    var currentLon;
+
+
+
+
+
+		    function initMap(){
+		    	var geocoder = new google.maps.Geocoder();
+
+	            geocoder.geocode( { 'address': $scope.model.location}, function(results, status) {
+
+	              // // console.log(address + ":" + results[0].geometry.location);
+		              if (status == google.maps.GeocoderStatus.OK) {
+		                
+		              //   console.log(results[0]);
+		                var geoLocation = results[0].geometry.location;
+		                currentLat = geoLocation.lat();
+		                currentLon = geoLocation.lng();
+
+
+		              } else {
+
+					    currentLat = 37.782551;
+					    currentLon = -122.445368;
+
+		              }
+	              
+	            });
+
+		    }
+		    initMap();
+
+
+		    $scope.model.submit = function(){
+
+		        	$route.reload();
+
+
+		    }
+
           	$http.get("../resources/TotCH4_daily_20150101.json").then(function(data) {
 	            console.log(data);
 	            var contents = data.data.data;
@@ -22,8 +63,8 @@
 
 		        $scope.map = {
 		            center: {
-		            latitude: 37.782551,
-		            longitude: -122.445368
+		            latitude: currentLat,
+		            longitude: currentLon
 		            },
 		            zoom: 5,
 		            heatLayerCallback: function (layer) {
